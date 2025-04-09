@@ -51,7 +51,7 @@ Se tudo estiver configurado corretamente, você deverá ver uma mensagem no cons
 
 O bot responde aos seguintes comandos:
 
-- `!roll familia` - Rolagem para uma família aleatória
+- `!roll grupo` - Rolagem para um grupo aleatório
 - `!roll poderes` - Rolagem para um poder aleatório
 - `!roll maldicoes` - Rolagem para uma maldição aleatória
 - `!help_roll` - Exibe informações de ajuda sobre o comando roll
