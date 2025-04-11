@@ -21,10 +21,10 @@ class Colors:
 
 
 class RaridadesPesos(Enum):
-    LENDARIO: int = 8
-    EPICO: int = 17
+    LENDARIO: int = 7
+    EPICO: int = 15
     RARO: int = 27
-    COMUM: int = 48
+    COMUM: int = 51
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -57,6 +57,17 @@ def calculate_weights(options_dict):
 GROUP_OPTIONS = {
     'Nenhum': {'rarity': RaridadesPesos.COMUM, 'color': Colors.CIANO, 'function': 'Neutro'},
 
+    # Sindicatos
+    'O Teatro - Sindicato dos Artistas': {'rarity': RaridadesPesos.EPICO, 'color': Colors.ROXO, 'function': 'Membro'},
+    'Forja Viva - Sindicato dos Metalúrgicos': {'rarity': RaridadesPesos.RARO, 'color': Colors.VERDE, 'function': 'Membro'},
+    'Olho do Abismo - Sindicato dos Mineiros': {'rarity': RaridadesPesos.COMUM, 'color': Colors.CIANO, 'function': 'Membro'},
+    'Aprendizes de Geppetto - Sindicato dos Artesãos': {'rarity': RaridadesPesos.COMUM, 'color': Colors.CIANO, 'function': 'Membro'},
+    'Dedos da Criação - Sindicato dos Médicos': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Membro'},
+    'A Caçada - Sindicato dos Caçadores': {'rarity': RaridadesPesos.RARO, 'color': Colors.VERDE, 'function': 'Membro'},
+    'Bússola - Sindicato dos Marinheiros': {'rarity': RaridadesPesos.EPICO, 'color': Colors.ROXO, 'function': 'Membro'},
+    'Noite Estrelada - Sindicato da Noite': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Membro'},
+
+
     # Uno
     'Uno - Investigação (Funcionario)': {'rarity': RaridadesPesos.RARO, 'color': Colors.VERDE, 'function': 'Funcionario'},
     'Uno - Investigação (Olhos)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Olhos'},
@@ -72,17 +83,20 @@ GROUP_OPTIONS = {
     # San
     'San - Transporte (Funcionario)': {'rarity': RaridadesPesos.RARO, 'color': Colors.VERDE, 'function': 'Funcionario'},
     'San - Transporte (Equipe de Limpeza)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Equipe de Limpeza'},
+    'San - Transporte (Equipe de Manutenção)': {'rarity': RaridadesPesos.EPICO, 'color': Colors.ROXO, 'function': 'Equipe de Manutenção'},
     'San - Transporte (Associado)': {'rarity': RaridadesPesos.EPICO, 'color': Colors.ROXO, 'function': 'Associado'},
 
     # Arba'a
     'Arba\'a - Assassinato (Funcionario)': {'rarity': RaridadesPesos.RARO, 'color': Colors.VERDE, 'function': 'Funcionario'},
     'Arba\'a - Assassinato (Padrinho)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Padrinho'},
     'Arba\'a - Assassinato (Madrinha)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Madrinha'},
+    'Arba\'a - Assassinato (Médico)': {'rarity': RaridadesPesos.EPICO, 'color': Colors.ROXO, 'function': 'Médico'},
     'Arba\'a - Assassinato (Associado)': {'rarity': RaridadesPesos.EPICO, 'color': Colors.ROXO, 'function': 'Associado'},
 
     # Cinq
     'Cinq - Justiça (Funcionario)': {'rarity': RaridadesPesos.RARO, 'color': Colors.VERDE, 'function': 'Funcionario'},
     'Cinq - Justiça (Juiz)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Juiz'},
+    'Cinq - Justiça (Executor)': {'rarity': RaridadesPesos.EPICO, 'color': Colors.ROXO, 'function': 'Executor'},
     'Cinq - Justiça (Associado)': {'rarity': RaridadesPesos.EPICO, 'color': Colors.ROXO, 'function': 'Associado'},
 
     # Sita
@@ -103,8 +117,8 @@ GROUP_OPTIONS = {
 
     # Otte
     'Otte - Biblioteca (Funcionario)': {'rarity': RaridadesPesos.RARO, 'color': Colors.VERDE, 'function': 'Funcionario'},
-    'Otte - Biblioteca (Pesquisador)': {'rarity': RaridadesPesos.EPICO, 'color': Colors.ROXO, 'function': 'Pesquisador'},
-    'Otte - Biblioteca (Professor)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Professor'},
+    'Otte - Biblioteca (Pesquisador)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Pesquisador'},
+    'Otte - Biblioteca (Pesquisador de Campo)': {'rarity': RaridadesPesos.EPICO, 'color': Colors.ROXO, 'function': 'Pesquisador de Campo'},
     'Otte - Biblioteca (Associado)': {'rarity': RaridadesPesos.EPICO, 'color': Colors.ROXO, 'function': 'Associado'},
 
     # Nau
@@ -114,6 +128,7 @@ GROUP_OPTIONS = {
 
     # Deg
     'Deg - Conselho (Funcionario)': {'rarity': RaridadesPesos.RARO, 'color': Colors.VERDE, 'function': 'Funcionario'},
+    'Deg - Conselho (Diplomata)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Diplomata'},
     'Deg - Conselho (Associado)': {'rarity': RaridadesPesos.EPICO, 'color': Colors.ROXO, 'function': 'Associado'},
 }
 
