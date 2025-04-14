@@ -18,10 +18,12 @@ class Colors:
     VERDE: int = 0x38ff45
     AMARELO: int = 0xffd000
     ROXO: int = 0xa200ff
+    VERMELHO: int = 0x9c0800
 
 
 class RaridadesPesos(Enum):
-    LENDARIO: int = 7
+    INSANO: int = 1
+    LENDARIO: int = 6
     EPICO: int = 15
     RARO: int = 27
     COMUM: int = 51
@@ -90,7 +92,11 @@ GROUP_OPTIONS = {
     'Arba\'a - Assassinato (Funcionario)': {'rarity': RaridadesPesos.RARO, 'color': Colors.VERDE, 'function': 'Funcionario'},
     'Arba\'a - Assassinato (Padrinho)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Padrinho'},
     'Arba\'a - Assassinato (Madrinha)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Madrinha'},
-    'Arba\'a - Assassinato (Médico)': {'rarity': RaridadesPesos.EPICO, 'color': Colors.ROXO, 'function': 'Médico'},
+    'Arba\'a - Assassinato (Dedo: Polegar)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Dedo: Dedão'},
+    'Arba\'a - Assassinato (Dedo: Indicador)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Dedo: Indicador'},
+    'Arba\'a - Assassinato (Dedo: Meio)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Dedo: Meio'},
+    'Arba\'a - Assassinato (Dedo: Anelar)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Dedo: Anelar'},
+    'Arba\'a - Assassinato (Dedo: Mínimo)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Dedo: Mindinho'},
     'Arba\'a - Assassinato (Associado)': {'rarity': RaridadesPesos.EPICO, 'color': Colors.ROXO, 'function': 'Associado'},
 
     # Cinq
@@ -108,11 +114,7 @@ GROUP_OPTIONS = {
 
     # Sedam
     'Sedam - Armamento (Funcionario)': {'rarity': RaridadesPesos.RARO, 'color': Colors.VERDE, 'function': 'Funcionario'},
-    'Sedam - Armamento (Dedo: Dedão)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Dedo: Dedão'},
-    'Sedam - Armamento (Dedo: Indicador)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Dedo: Indicador'},
-    'Sedam - Armamento (Dedo: Meio)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Dedo: Meio'},
-    'Sedam - Armamento (Dedo: Anelar)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Dedo: Anelar'},
-    'Sedam - Armamento (Dedo: Mindinho)': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO, 'function': 'Dedo: Mindinho'},
+    'Sedam - Assassinato (Médico)': {'rarity': RaridadesPesos.EPICO, 'color': Colors.ROXO, 'function': 'Médico'},
     'Sedam - Armamento (Associado)': {'rarity': RaridadesPesos.EPICO, 'color': Colors.ROXO, 'function': 'Associado'},
 
     # Otte
