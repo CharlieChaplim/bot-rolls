@@ -19,6 +19,13 @@ class Colors:
     AMARELO: int = 0xffd000
     ROXO: int = 0xa200ff
     VERMELHO: int = 0x9c0800
+    AZUL: int = 0x004cff
+    PRETO: int = 0x000000
+    BRANCO: int = 0xffffff
+
+@dataclass
+class WikiItemConfig:
+    apenas_imagem: bool = False  # Indica se o item deve mostrar apenas descrição e imagem
 
 
 class RaridadesPesos(Enum):
@@ -238,9 +245,15 @@ POWERS_OPTIONS = {
 
 
 CURSES_OPTIONS = {
-    'Maldição 1': {'rarity': RaridadesPesos.COMUM, 'color': Colors.CIANO},  # Cinza
-    'Maldição 2': {'rarity': RaridadesPesos.COMUM, 'color': Colors.CIANO},  # Roxo
-    'Maldição 3': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO}  # Preto
+    'Nenhuma': {'rarity': RaridadesPesos.COMUM, 'color': Colors.CIANO}, 
+    'Maldição da Gula': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO},
+    'Maldição do Não Mais Humano': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO},
+    'Maldição do Corpo': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO},
+    'Maldição do Poder': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO},
+    'Maldição dos Corvos': {'rarity': RaridadesPesos.INSANO, 'color': Colors.VERMELHO},
+    'Maldição da Tsukuyomi': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO},
+    'Maldição do Rei': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO},
+    'Maldição do Gêmeo Maligno': {'rarity': RaridadesPesos.LENDARIO, 'color': Colors.AMARELO},
 }
 
 # Dicionário para mapear opções de comando para seus respectivos dicionários de opções
@@ -250,8 +263,138 @@ OPTION_CATEGORIES = {
     'maldicoes': CURSES_OPTIONS
 }
 
+# Dicionário com informações detalhadas para o comando wiki
+WIKI_INFO = {
+    'Maldição dos Corvos': {
+        'title': 'Maldição dos Corvos',
+        'description': 'Você não tem nenhum malefício?',
+        'beneficio': 'Você pode virar um corvo quando bem entender. "You don\'t understand ruby, he turned me into a BIRD!"',
+        'maleficio': 'Nenhum.',
+        'color': Colors.VERMELHO
+    },
+    'Maldição da Gula': {
+        'title': 'Maldição da Gula',
+        'description': 'Sua fome não conhece limites — a ponto de levar restaurantes inteiros à falência. No entanto, essa voracidade vem acompanhada de uma vitalidade fora do comum.',
+        'beneficio': 'Seu modo irrestrito dura sempre 15 minutos, sem necessidade de rolagem.',
+        'maleficio': 'Você constantemente sente fome.',
+        'color': Colors.AMARELO
+    },
+    'Maldição do Não Mais Humano': {
+        'title': 'Maldição do Não Mais Humano',
+        'description': 'Palavras ligadas à transformação cobram um preço alto: sua humanidade. Você nunca mais será completamente humano — uma criatura híbrida, sempre dividida.',
+        'beneficio': 'Em troca, sua vida se estende consideravelmente, vivendo até cinco vezes mais que uma pessoa comum.',
+        'maleficio': 'Você nunca será completamente humano.',
+        'color': Colors.AMARELO
+    },
+    'Maldição do Corpo': {
+        'title': 'Maldição do Corpo',
+        'description': 'Seu corpo é frágil, quebradiço, talvez até doente. Mas seu poder é desproporcionalmente devastador — como se o universo compensasse sua condição com força pura.',
+        'beneficio': 'Seus ataques e habilidades baseados em palavra são significativamente mais fortes do que o normal.',
+        'maleficio': 'Seu corpo é muito fragil e doente.',
+        'color': Colors.AMARELO
+    },
+    'Maldição do Poder': {
+        'title': 'Maldição do Poder',
+        'description': 'Seu poder é medíocre, quase inútil. Mas seu corpo? Inquebrável.',
+        'beneficio': 'Sua força física, resistência e habilidades corporais ultrapassam os limites humanos.',
+        'maleficio': 'Sua palavra tem um efeito reverso indesejado (Como sorte virar azar).',
+        'color': Colors.AMARELO
+    },
+    'Maldição da Tsukuyomi': {
+        'title': 'Maldição da Tsukuyomi',
+        'description': 'Você é constantemente observado... Talvez você se quer esteja vivo... Se acha vivo?',
+        'beneficio': 'Corvos te seguem por toda cidade, lhe dando informações sem filtro do que você quer ouvir, afinal, você pertence aos corvos e não o contrário!',
+        'maleficio': 'Você pertence aos corvos e não o contrário! Logo, a cada 3 loots, um será dos corvos.',
+        'color': Colors.AMARELO
+    },
+    'Maldição do Rei': {
+        'title': 'Maldição do Rei',
+        'description': 'Sempre procurando por mais, negligenciando seus súditos e reinos... Dia após dia, sua luta é incessante e você? Acaba como um esqueleto.',
+        'beneficio': 'Imortalidade!',
+        'maleficio': 'Só que como um esqueleto.',
+        'color': Colors.AMARELO
+    },
+    'Maldição do Gêmeo Maligno': {
+        'title': 'Maldição do Gêmeo Maligno',
+        'description': 'Dentro de você... Sim, ele sempre esteve dentro de você! Você só não notou ainda, seu gêmeo maligno é você mesmo com transtorno de personalidade!',
+        'beneficio': 'Uma segunda palavra, que só poderá ser usada pelo irmão "gêmeo".',
+        'maleficio': 'Seu gêmeo necessáriamente tem de ser seu oposto, como se você for bom, ele tem de ser mau.',
+        'color': Colors.AMARELO
+    },
+    'Uno': {
+        'title': 'Uno - Investigação',
+        'description': '(Exemplo)Departamento de Investigação da Cidade. Responsável por coletar informações, monitorar atividades suspeitas e manter uma rede de informantes. Os agentes do Uno são conhecidos por sua discrição e capacidade de se infiltrar em qualquer ambiente.(Exemplo)',
+        'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358936664998805774/Uno.png?ex=67ff8b24&is=67fe39a4&hm=179221145ef0ad71422468ff48f76a5ca4de6b7afdab03615dd03178a56f72a0&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
+        'color': Colors.ROXO,
+        'apenas_imagem': True
+    },
+    'Zwei': {
+        'title': 'Zwei - Proteção',
+        'description': 'Lore Ipsun',
+        'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358939975713947699/Zwei.png?ex=67ff8e3a&is=67fe3cba&hm=75ce4fdbf89bbd9f2c10161aab63d7aefbe6dce9dcffa5b3574b86faf77189ed&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
+        'color': Colors.AZUL,
+        'apenas_imagem': True
+    },
+    'San': {
+        'title': 'San - Transporte',
+        'description': 'Lore Ipsun',
+        'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358943537265250565/San.png?ex=67ff918b&is=67fe400b&hm=d4654afb1e87a9de58b3ad8c943a5a62b9cd629b0de54c5a8b8cf410e4ec98df&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
+        'color': Colors.AMARELO,
+        'apenas_imagem': True
+    },
+    'Arba\'a': {
+        'title': 'Arba\'a - Assasinatos',
+        'description': 'Lore Ipsun',
+        'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358944794549682327/Arbaa.png?ex=67ff92b6&is=67fe4136&hm=4d109d7c73151c190667ade61902e13ac51fe71b01855f538926b3012184cdfa&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
+        'color': Colors.VERMELHO,
+        'apenas_imagem': True
+    },
+    'Cinq': {
+        'title': 'Cinq - Justiça',
+        'description': 'Lore Ipsun',
+        'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358946120352403506/Cinq.png?ex=67ff93f3&is=67fe4273&hm=34dcecf488b80e95d8ceba7e7f063d4b66f70f733ba372efcbcef4b2b4559b12&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
+        'color': Colors.AMARELO,
+        'apenas_imagem': True
+    },
+    'Sita': {
+        'title': 'Sita - Economia',
+        'description': 'Lore Ipsun',
+        'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358948276413665561/Sita.png?ex=67ff95f5&is=67fe4475&hm=93a87ad1010d4a03aaf281280ab578a7b819a36bbc1746a1d7f6d6aaa580efe4&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
+        'color': Colors.VERDE,
+        'apenas_imagem': True
+    },
+    'Sedam': {
+        'title': 'Sedam - Armamento',
+        'description': 'Lore Ipsun',
+        'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358949528866394232/Sedam.png?ex=67ff971f&is=67fe459f&hm=290085547b927bbc1436f5a15565bbff175ffed4bae9f2ba860d267bf140e837&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
+        'color': Colors.VERMELHO,
+        'apenas_imagem': True
+    },
+    'Otte': {
+        'title': 'Otte - Biblioteca',
+        'description': 'Lore Ipsun',
+        'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358950660053270658/Otte.png?ex=67ff982d&is=67fe46ad&hm=92caf8c002635632b83333b2d1eb52d14e678827f41d8632c7dddddb6a7d43bb&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
+        'color': Colors.CIANO,
+        'apenas_imagem': True
+    },
+    'Nau': {
+        'title': 'Nau - Entretenimento',
+        'description': 'Lore Ipsun',
+        'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358951715537420580/Nau.png?ex=67ff9929&is=67fe47a9&hm=1f39349346bb4a2b2d0e2fd7c7d7969cd3dd2a7cc581e5e6ea63d68a7c90dfb5&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
+        'color': Colors.BRANCO,
+        'apenas_imagem': True
+    },
+    'Deg': {
+        'title': 'Deg - Conselho',
+        'description': 'Lore Ipsun',
+        'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358952504876077207/Deg.png?ex=67ff99e5&is=67fe4865&hm=408511970b160732df0e078ea645a61e7f5c8527281e21fd6a9c948290b093c8&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
+        'color': Colors.PRETO,
+        'apenas_imagem': True
+    },
+}
+
 # Lista de todos os comandos disponíveis para sugestões
-AVAILABLE_COMMANDS = ['roll', 'help_roll']
+AVAILABLE_COMMANDS = ['roll', 'help_roll', 'wiki']
 
 @bot.event
 async def on_ready():
@@ -314,6 +457,54 @@ async def roll(ctx, option=None):
     
     await ctx.send(embed=embed)
 
+@bot.command(name='wiki')
+async def wiki(ctx, *, item=None):
+    """Exibe informações detalhadas sobre um item específico."""
+    if not item:
+        await ctx.send('Por favor, especifique um item para consultar: `!wiki <nome do item>`')
+        return
+    
+    # Procura o item no dicionário WIKI_INFO
+    # Primeiro tenta uma correspondência exata
+    if item in WIKI_INFO:
+        item_info = WIKI_INFO[item]
+    else:
+        # Se não encontrar, tenta encontrar uma correspondência parcial
+        possible_matches = [key for key in WIKI_INFO.keys() if item.lower() in key.lower()]
+        
+        if len(possible_matches) == 1:
+            # Se encontrar apenas uma correspondência parcial, usa ela
+            item_info = WIKI_INFO[possible_matches[0]]
+        elif len(possible_matches) > 1:
+            # Se encontrar múltiplas correspondências, mostra as opções
+            matches_text = '\n'.join([f'`{match}`' for match in possible_matches])
+            await ctx.send(f'Encontrei múltiplas correspondências para "{item}". Por favor, seja mais específico:\n{matches_text}')
+            return
+        else:
+            # Se não encontrar nenhuma correspondência
+            await ctx.send(f'Não encontrei informações sobre "{item}". Verifique a ortografia ou tente outro item.')
+            return
+    
+    # Cria um embed com as informações do item
+    embed = discord.Embed(
+        title=item_info['title'],
+        description=item_info['description'],
+        color=item_info['color']
+    )
+    
+    # Verifica se o item deve mostrar apenas descrição e imagem usando a propriedade 'apenas_imagem'
+    # Para adicionar novos itens que mostram apenas imagem, basta definir 'apenas_imagem': True no dicionário
+    if item_info.get('apenas_imagem', False):
+        embed.set_image(url=item_info['image_url'])
+    else:
+        # Para outros itens, mostra benefício e malefício
+        embed.add_field(name="Benefício", value=item_info['beneficio'], inline=False)
+        
+    
+    embed.set_footer(text=f"Solicitado por {ctx.author.display_name}")
+    
+    await ctx.send(embed=embed)
+
 @bot.command(name='help_roll')
 async def help_roll(ctx):
     """Exibe informações de ajuda para o comando roll."""
@@ -334,6 +525,12 @@ async def help_roll(ctx):
         value="`grupo` - Role para um grupo (Uzumaki, Uchiha, Kobayashi)\n"
               "`poderes` - Role para um poder (Gelo, Fogo, Trovão)\n"
               "`maldicoes` - Role para uma maldição (Maldição 1, Maldição 2, Maldição 3)",
+        inline=False
+    )
+    
+    embed.add_field(
+        name="Outros Comandos",
+        value="`!wiki <item>` - Consulta informações detalhadas sobre um item específico",
         inline=False
     )
     

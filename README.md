@@ -54,7 +54,8 @@ O bot responde aos seguintes comandos:
 - `!roll grupo` - Rolagem para um grupo aleatório
 - `!roll poderes` - Rolagem para um poder aleatório
 - `!roll maldicoes` - Rolagem para uma maldição aleatória
-- `!help_roll` - Exibe informações de ajuda sobre o comando roll
+- `!wiki <item>` - Consulta informações detalhadas sobre um item específico
+- `!help_roll` - Exibe informações de ajuda sobre os comandos
 
 ## Licença
 
