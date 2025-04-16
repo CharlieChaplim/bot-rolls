@@ -321,72 +321,151 @@ WIKI_INFO = {
         'maleficio': 'Seu gêmeo necessáriamente tem de ser seu oposto, como se você for bom, ele tem de ser mau.',
         'color': Colors.AMARELO
     },
-    'Uno': {
-        'title': 'Uno - Investigação',
-        'description': '(Exemplo)Departamento de Investigação da Cidade. Responsável por coletar informações, monitorar atividades suspeitas e manter uma rede de informantes. Os agentes do Uno são conhecidos por sua discrição e capacidade de se infiltrar em qualquer ambiente.(Exemplo)',
-        'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358936664998805774/Uno.png?ex=67ff8b24&is=67fe39a4&hm=179221145ef0ad71422468ff48f76a5ca4de6b7afdab03615dd03178a56f72a0&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
-        'color': Colors.ROXO,
-        'apenas_imagem': True
-    },
+'Uno': {
+    'title': 'Uno - Investigação',
+    'description': (
+        'A Uno é a espinha dorsal do submundo da informação. Num sistema onde o conhecimento é moeda de poder, '
+        'a Uno atua como a principal detentora e negociadora de segredos. Sua estrutura é dividida entre funcionários '
+        'administrativos, "olhos" e "ouvidos", cada qual com uma função clara na teia de vigilância urbana. Em meio à '
+        'liberdade caótica da cidade, a Uno prospera oferecendo informações precisas, vendidas por preço alto — em favores, '
+        'recursos ou dados. Seu atual líder é **Raviel**.\n\n'
+        '- **Funcionários**: Responsáveis por organizar, catalogar e gerenciar os dados obtidos. Trabalham em escritórios ocultos, '
+        'muitas vezes sem saber quem são os espiões ou de onde vêm as informações.\n'
+        '- **Olhos**: São os observadores, infiltrados em locais estratégicos, com poderes voltados à percepção, análise e ilusão. '
+        'São os responsáveis por capturar imagens, cenas e comportamentos.\n'
+        '- **Ouvidos**: Mestres em escuta e infiltração, operam como sombras nos corredores da cidade. Com habilidades de mimetismo '
+        'e espionagem auditiva, são eles que interceptam conversas, confissões e ameaças.'
+    ),
+    'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358936664998805774/Uno.png?ex=67ff8b24&is=67fe39a4&hm=179221145ef0ad71422468ff48f76a5ca4de6b7afdab03615dd03178a56f72a0&=&format=webp&quality=lossless',
+    'color': Colors.ROXO,
+    'apenas_imagem': True
+},
+
     'Zwei': {
         'title': 'Zwei - Proteção',
-        'description': 'Lore Ipsun',
+        'description': (
+        'A Zwei representa o braço protetor da cidade, mesmo num sistema onde a segurança é uma escolha de mercado. '
+        'Seus membros vestem armaduras pesadas e agem guiados por um ideal de preservação da vida — mesmo quando isso entra em choque com o lucro. '
+        'Com ações marcadas por coragem e sacrifício, a Zwei é respeitada, mas sua ética altruísta frequentemente causa atritos com o restante da cidade. '
+        'Sua atual líder é **Tereza**.\n\n'
+        '- **Funcionários**: Trabalham na base de operações, organizando patrulhas, missões de resgate e logística da milícia.\n'
+        '- **Milícia**: Força de combate principal, equipada com armaduras rústicas e poderes defensivos. Atuam em emergências e zonas de risco elevado.\n'
+        '- **Escudo**: Especialistas em contenção e evacuação. Se colocam entre o perigo e os civis, mesmo que isso custe caro.'
+    ),
         'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358939975713947699/Zwei.png?ex=67ff8e3a&is=67fe3cba&hm=75ce4fdbf89bbd9f2c10161aab63d7aefbe6dce9dcffa5b3574b86faf77189ed&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
         'color': Colors.AZUL,
         'apenas_imagem': True
     },
     'San': {
         'title': 'San - Transporte',
-        'description': 'Lore Ipsun',
+        'description': (
+        'A San é o motor movido a carvão que nunca para. Como a maior transportadora da cidade, sua lógica é simples: lucro sobre trilhos. '
+        'Com linhas ferroviárias cruzando setores inteiros, a San é a espinha dorsal da logística urbana e industrial. '
+        'Seus cortes de gastos extremos levaram à criação de forças armadas internas — a temida Equipe de Limpeza. '
+        'Seu atual líder é **Hermiton**, uma figura difícil de encontrar até para seus subordinados.\n\n'
+        '- **Funcionários**: Administram rotas, vagões e manutenção mínima. Trabalham sob intensa pressão por resultados.\n'
+        '- **Equipe de Limpeza**: Força de combate interna da San, especializada em lidar com "imprevistos", como assaltos, sabotagens e greves.\n'
+        '- **Equipe de Manutenção**: Com poderes voltados à reconstrução e tecnologia, mantém os trilhos operacionais mesmo sob condições adversas.'
+    ),
         'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358943537265250565/San.png?ex=67ff918b&is=67fe400b&hm=d4654afb1e87a9de58b3ad8c943a5a62b9cd629b0de54c5a8b8cf410e4ec98df&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
         'color': Colors.AMARELO,
         'apenas_imagem': True
     },
     'Arba\'a': {
         'title': 'Arba\'a - Assasinatos',
-        'description': 'Lore Ipsun',
+        'description': (
+        'A Arba’a vive um período de reconstrução após uma queda catastrófica. Antigamente temida como a organização de assassinos mais mortal da cidade, '
+        'hoje opera nas sombras, tentando retomar seu prestígio. Cada “dedo” da Arba’a representa um estilo único de morte, refletindo a especialização da hierarquia. '
+        'São cinco grupos principais, conhecidos como a mão da morte. Atualmente, a líder é **Ilya**.\n\n'
+        '- **Funcionários**: Administram contratos, pagamentos e a estrutura decadente da organização.\n'
+        '- **Padrinho & Madrinha**: Líderes da velha guarda. Agem com brutalidade e precisão cirúrgica, mantendo viva a tradição da Arba’a.\n'
+        '- **Polegar**: Especialistas em força bruta — confrontos diretos, mortes viscerais.\n'
+        '- **Indicador**: Mestres das armas de fogo. Precisos e raros numa cidade onde munição é escassa.\n'
+        '- **Meio**: Disciplinados e metódicos. Matam com o corpo, usando artes marciais e anatomia.\n'
+        '- **Anelar**: Sussurram a morte. Agem com extrema sutileza, invisíveis.\n'
+        '- **Mínimo**: Engenheiros da morte indireta. Armadilhas, explosivos e venenos letais e silenciosos.'
+    ),
         'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358944794549682327/Arbaa.png?ex=67ff92b6&is=67fe4136&hm=4d109d7c73151c190667ade61902e13ac51fe71b01855f538926b3012184cdfa&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
         'color': Colors.VERMELHO,
         'apenas_imagem': True
     },
     'Cinq': {
         'title': 'Cinq - Justiça',
-        'description': 'Lore Ipsun',
+        'description': (
+        'A Cinq é a encarnação da lei absoluta em meio ao caos. Mesmo numa sociedade onde a liberdade impera, alguém precisa traçar limites — '
+        'ou ao menos parecer que o faz. Sua sede imponente e julgamentos públicos tornaram a Cinq uma entidade temida e reverenciada. '
+        'Suas decisões são definitivas e suas execuções, exemplares. Seu atual líder é **Peter**.\n\n'
+        '- **Funcionários**: Secretários, analistas e operadores jurídicos. Reúnem provas e organizam julgamentos.\n'
+        '- **Juiz**: Autoridades supremas. Julgam com base na tradição e interpretação pessoal da justiça.\n'
+        '- **Executor**: Cumpre as sentenças. Letal e implacável, com poderes voltados à punição e fim.'
+    ),
         'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358946120352403506/Cinq.png?ex=67ff93f3&is=67fe4273&hm=34dcecf488b80e95d8ceba7e7f063d4b66f70f733ba372efcbcef4b2b4559b12&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
         'color': Colors.AMARELO,
         'apenas_imagem': True
     },
     'Sita': {
         'title': 'Sita - Economia',
-        'description': 'Lore Ipsun',
+        'description': (
+        'A Sita controla a cidade por onde realmente importa: o bolso. Detentora do maior mercado e banco local, é nela que o valor das coisas — e das pessoas — é definido. '
+        'Sua estrutura aristocrática é composta por barões e baronesas que dominam setores como feudos, enquanto o consumidor é apenas um número com carteira. '
+        'Na Sita, tudo tem um preço. Juros, taxas e cláusulas escondidas são parte do jogo. Sua atual líder é **Rxya**.\n\n'
+        '- **Funcionários**: Operam caixas, estoques e sistemas bancários. São treinados para vender — a qualquer custo.\n'
+        '- **Barão & Baronesa**: Controlam nichos estratégicos da economia, como alimentação, medicina e construção. Ditam preços e políticas internas.\n'
+        '- **Vendedor**: Manipuladores natos, vendem até o que não têm. Sempre com um sorriso... e um contrato.'
+    ),
         'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358948276413665561/Sita.png?ex=67ff95f5&is=67fe4475&hm=93a87ad1010d4a03aaf281280ab578a7b819a36bbc1746a1d7f6d6aaa580efe4&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
         'color': Colors.VERDE,
         'apenas_imagem': True
     },
     'Sedam': {
         'title': 'Sedam - Armamento',
-        'description': 'Lore Ipsun',
+        'description': (
+        'A Sedam é o último resquício do antigo exército — e o único fornecedor legal de pólvora e armas da cidade. '
+        'Isolada do restante das organizações, raramente se envolve nos conflitos, exceto quando o pagamento justifica. '
+        'Com estrutura militar e rígida, mantém um monopólio absoluto sobre o armamento. Seu atual líder é **Heinken**.\n\n'
+        '- **Funcionários**: Lidam com a produção, estoque e burocracia de armamentos. Acesso à fábrica é privilégio de poucos.\n'
+        '- **Médico**: Um dos únicos profissionais com acesso real à medicina. Tratam feridos com excelência, muitas vezes gratuitamente — mas a que custo?'
+    ),
         'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358949528866394232/Sedam.png?ex=67ff971f&is=67fe459f&hm=290085547b927bbc1436f5a15565bbff175ffed4bae9f2ba860d267bf140e837&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
         'color': Colors.VERMELHO,
         'apenas_imagem': True
     },
     'Otte': {
         'title': 'Otte - Biblioteca',
-        'description': 'Lore Ipsun',
+        'description': (
+        'A Otte é a guardiã do conhecimento verdadeiro. Em uma cidade dominada por fumaça e ganância, sua biblioteca é um farol de saber. '
+        'Sobrevive graças a doações misteriosas e benfeitores anônimos, mesmo não sendo lucrativa. '
+        'Seu atual líder é **Venus**, frequentemente confundido com o lendário professor **Joaquim**.\n\n'
+        '- **Funcionários**: Responsáveis por catalogar, restaurar e proteger documentos raros e preciosos.\n'
+        '- **Pesquisador**: Especialistas em teoria, arcana ou científica. Desenvolvem novas tecnologias e palavras artificiais.\n'
+        '- **Pesquisador de Campo**: Saem da biblioteca em busca de relíquias, dados perdidos e novas formas de saber — mesmo que isso custe caro.'
+    ),
         'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358950660053270658/Otte.png?ex=67ff982d&is=67fe46ad&hm=92caf8c002635632b83333b2d1eb52d14e678827f41d8632c7dddddb6a7d43bb&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
         'color': Colors.CIANO,
         'apenas_imagem': True
     },
     'Nau': {
         'title': 'Nau - Entretenimento',
-        'description': 'Lore Ipsun',
+        'description': (
+        'A Nau colore o cinza da cidade com suas luzes, risos e absurdos. Responsável por toda a produção audiovisual, ela dita o que a cidade vê, ouve e sente. '
+        'Seu estilo é caótico, extravagante e vicioso. Por trás de cada show, existe uma engrenagem brilhante — e bizarra. '
+        'Sua figura máxima é o **Palhaço Palhaçada**, símbolo e lenda urbana.\n\n'
+        '- **Funcionários**: Técnicos, roteiristas, câmeras e figurantes. Fazem o show acontecer nos bastidores.\n'
+        '- **Palhaço**: Título e personagem. Qualquer um pode assumir o papel — desde que espalhe o caos divertido.'
+    ),
         'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358951715537420580/Nau.png?ex=67ff9929&is=67fe47a9&hm=1f39349346bb4a2b2d0e2fd7c7d7969cd3dd2a7cc581e5e6ea63d68a7c90dfb5&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
         'color': Colors.BRANCO,
         'apenas_imagem': True
     },
     'Deg': {
         'title': 'Deg - Conselho',
-        'description': 'Lore Ipsun',
+        'description': (
+        'A Deg é o que mantém a cidade em ordem — ou pelo menos dá essa impressão. Não dita as regras, mas decide quem fala com quem, quando e sob quais condições. '
+        'É a peça invisível que move o tabuleiro de poder. Quando há problemas externos, a Deg é sempre a primeira a agir. '
+        'Sua líder atual é **Yin**.\n\n'
+        '- **Funcionários**: Organizam agendas, registros e reuniões entre as organizações.\n'
+        '- **Diplomata**: Mediadores, negociadores e embaixadores. Com carisma e boa lábia, garantem que a cidade funcione — mais ou menos.'
+    ),
         'image_url': 'https://media.discordapp.net/attachments/952277039686226071/1358952504876077207/Deg.png?ex=67ff99e5&is=67fe4865&hm=408511970b160732df0e078ea645a61e7f5c8527281e21fd6a9c948290b093c8&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
         'color': Colors.PRETO,
         'apenas_imagem': True
