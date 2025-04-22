@@ -22,6 +22,7 @@ class Colors:
     AZUL: int = 0x004cff
     PRETO: int = 0x000000
     BRANCO: int = 0xffffff
+    LARANJA: int = 0xff5900
 
 @dataclass
 class WikiItemConfig:
@@ -992,20 +993,646 @@ Ps: Em minha defesa, não existem muito manipuladores de mel.""",
     'image_url': 'https://media.giphy.com/media/DBbEeUM6JBgOZy2DLN/giphy.gif',
     'color': Colors.VERMELHO
 },
+'Equino': {
+    'title': 'Palavra: Equino',
+    'description': """Definição: mamíferos herbívoros como cavalos, jumentos e zebras, conhecidos por sua velocidade, resistência e relação com humanos.
 
+- **Estágio 0**: Você entende profundamente o comportamento de equinos e consegue domá-los com maestria.
+- **Estágio 1**: Manipula atributos desses animais — Tanto seus quanto de um Equino.
+- **Estágio 2**: Pode se transformar em um equino ou forma híbrida.
+- **Passiva**: Você nunca se cansa em longas jornadas e sabe exatamente para onde está indo.
+- **Estágio 3**: Manipula o conceito de equino — liberdade, vigor e lealdade podem ser aplicadas a qualquer coisa.
+- **Modo: Irrestrito**: Altera temporariamente o conceito do conceito de equino.""",
+    'image_url': 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHVjNTdkdGgxOXl3OGpicGsycGF4dnpkaHRqZXgwOGMxZ2M5ODZkYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VTHRL99gV7Jdwh2mNd/giphy.gif',
+    'color': Colors.BRANCO
+},
 
+'Aracnídeo': {
+    'title': 'Palavra: Aracnídeo',
+    'description': """Definição: animais invertebrados como aranhas e escorpiões, com oito patas, exoesqueleto e habilidades como tecelagem ou veneno.
 
+- **Estágio 0**: Você entende os padrões e comportamentos de aracnídeos como ninguém.
+- **Estágio 1**: Manipula atributos desses animais — Tanto seus quanto de um Aracnídeo.
+- **Estágio 2**: Pode se transformar em um aracnídeo ou forma híbrida.
+- **Passiva**: Você pode aderir a superfícies e seus reflexos são extremamente rápidos.
+- **Estágio 3**: Manipula o conceito de aracnídeo — armadilha, paciência e veneno podem ser aplicados ao mundo.
+- **Modo: Irrestrito**: Altera temporariamente o conceito do conceito de aracnídeo.""",
+    'image_url': 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGE4NjJpMDd2Nzg2Y3E2dG8ydjQ3bDR6cmRhanltb3M0NG10dmpwNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rv8hOwoLyz4XBAnMcx/giphy.gif',
+    'color': Colors.ROXO
+},
 
-    'Pobrs': {
-        'title': 'Pobrs',
-        'description': (
-        'Você quer levar sua esposa e seus 8 filhos pra comer fora mas não tem dinheiro pra sair nem da favela? Não tema, o Pobrs é a solução!'
-        'Lancheria acessível, podrão delícia com gordura velha e todo tipo de marca de refrigerante, de álcool só glacial.\n\n'
-           ),
-        'image_url': 'https://media.discordapp.net/attachments/1361048544596988256/1361048563727204392/cd06f1f8ad33c9202d01e2ec785f6aff.png?ex=68014b40&is=67fff9c0&hm=a8016e407a13f9c5fb563d81f4ffc9e24bbb979cd3ea1796cf05e9a85f43410f&=&format=webp&quality=lossless',  # Substitua pelo URL real da imagem
-        'color': Colors.PRETO,
-        'apenas_imagem': True
-    },
+'Canguru': {
+    'title': 'Palavra: Canguru',
+    'description': """Definição: mamífero marsupial saltador da Austrália, conhecido por suas pernas poderosas, cauda rígida e cuidado com os filhotes.
+
+- **Estágio 0**: Você entende o comportamento dos cangurus e sua dinâmica de grupo.
+- **Estágio 1**: Manipula atributos desses animais — Tanto seus quanto de um Canguru.
+- **Estágio 2**: Pode se transformar em um canguru ou forma híbrida.
+- **Passiva**: Você possui equilíbrio absoluto e propulsão aprimorada nas pernas.
+- **Estágio 3**: Manipula o conceito de canguru — proteção, mobilidade e salto aplicáveis a qualquer meio.
+- **Modo: Irrestrito**: Altera temporariamente o conceito do conceito de canguru.""",
+    'image_url': 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExczNhNzNwY3loNmZnN2N6ZDlkczR2MTQ1dnh5cmJjcXlnd2RwZW1sciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/v9Dsle3klBhZdd8Z70/giphy.gif',
+    'color': Colors.LARANJA
+},
+
+'Dragão': {
+    'title': 'Palavra: Dragão',
+    'description': """Definição: criatura mitológica associada a poder, sabedoria, voo e fogo. Dragões variam culturalmente entre guardiões e ameaças.
+
+- **Estágio 0**: Você entende todos os mitos e simbologias envolvendo dragões.
+- **Estágio 1**: Manipula atributos desses seres — Tanto seus quanto de um Dragão.
+- **Estágio 2**: Pode se transformar em um dragão ou forma híbrida.
+- **Passiva**: Sua presença impõe respeito, e você emana poder místico.
+- **Estágio 3**: Manipula o conceito de dragão — imponência, proteção e catástrofe ganham forma onde quiser.
+- **Modo: Irrestrito**: Altera temporariamente o conceito do conceito de dragão.""",
+    'image_url': 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXB5bHExMWk0ZnUxNnJyMHhmeTAwd3I2aWxrdWl3d2hoOWZlNTA2byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VvBbaJmJbEKV63czaq/giphy.gif',
+    'color': Colors.AMARELO
+},
+
+'Leprechaum': {
+    'title': 'Palavra: Leprechaum',
+    'description': """Definição: criatura do folclore irlandês, pequena e travessa, associada à sorte, ouro e truques mágicos.
+
+- **Estágio 0**: Você entende profundamente as histórias, truques e lógica dos leprechauns.
+- **Estágio 1**: Manipula atributos desses seres — Tanto seus quanto de um Leprechaum.
+- **Estágio 2**: Pode se transformar em um leprechaum ou forma híbrida.
+- **Passiva**: Você sempre tem uma saída engenhosa e tende a atrair fortuna aleatória.
+- **Estágio 3**: Manipula o conceito de leprechaum — sorte, truques e pequenos milagres moldam a realidade.
+- **Modo: Irrestrito**: Altera temporariamente o conceito do conceito de leprechaum.""",
+    'image_url': 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGNybGJ1ZDAwMHZ1dnA0azByZXRwcjN6Zm1neXB3OGhxeWVrNXloNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kdHd6QGFWG7I7wK7c9/giphy.gif',
+    'color': Colors.VERDE
+},
+
+'Tigre': {
+    'title': 'Palavra: Tigre',
+    'description': """Definição: grande felino carnívoro, caçador solitário e furtivo, conhecido por sua força, velocidade e inteligência.
+
+- **Estágio 0**: Você entende os hábitos de caça, território e hierarquia de tigres.
+- **Estágio 1**: Manipula atributos desses animais — Tanto seus quanto de um Tigre.
+- **Estágio 2**: Pode se transformar em um tigre ou forma híbrida.
+- **Passiva**: Você pode desaparecer na selva urbana e atacar com precisão letal.
+- **Estágio 3**: Manipula o conceito de tigre — domínio, predador absoluto e silêncio ganham forma em qualquer contexto.
+- **Modo: Irrestrito**: Altera temporariamente o conceito do conceito de tigre.""",
+    'image_url': 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2d5cm9jeTMyY2lxZGE2dW9wbXkwazl2Y2cwcjB4aXZpcDdoOHhvOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LsMU2qxRALq9Cd1sKm/giphy.gif',
+    'color': Colors.LARANJA
+},
+'Sorte': {
+    'title': 'Palavra: Sorte',
+    'description': """Definição: circunstância favorável atribuída ao acaso; boa fortuna.
+
+- **Estágio 0**: Você é absurdamente sortudo em tudo que envolva probabilidade comum.
+- **Estágio 1**: Manipula atributos da sorte em objetos, pessoas ou situações.
+- **Estágio 2**: Pode gerar ou remover estados de sorte, atraindo ou afastando eventos improváveis.
+- **Passiva**: Situações improváveis tendem a favorecer você naturalmente.
+- **Estágio 3**: Manipula o conceito de sorte — o destino pode ser moldado ao seu favor.
+- **Modo: Irrestrito**: Altera temporariamente o conceito do conceito de sorte.""",
+    'image_url': 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGt4enlsODFva3RsZTFha2kwMXhlczhmNjRmdzIzam14c25lbjdhdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jJqzoRLfplqRt9Rf35/giphy.gif',
+    'color': Colors.AMARELO
+},
+
+'Beleza': {
+    'title': 'Palavra: Beleza',
+    'description': """Definição: qualidade do que é belo ou agradável aos sentidos ou ao espírito.
+
+- **Estágio 0**: Você é capaz de realçar a beleza de tudo ao seu redor com naturalidade.
+- **Estágio 1**: Manipula atributos da beleza em si mesmo ou em qualquer coisa.
+- **Estágio 2**: Pode transformar ou distorcer estados de beleza — tornar algo belo ou horrendo.
+- **Passiva**: Sua presença atrai admiração e fascínio constante.
+- **Estágio 3**: Manipula o conceito de beleza — redefinindo o que é belo no mundo.
+- **Modo: Irrestrito**: Altera temporariamente o conceito do conceito de beleza.""",
+    'image_url': 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWR0bzB2bWxwODlkZzljamdkZ3EwNTN5a2c5OHA0M28yNGZxdmh3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gquyZDQ8WDwnyvHS1L/giphy.gif',
+    'color': Colors.CIANO
+},
+
+'Rapidez': {
+    'title': 'Palavra: Rapidez',
+    'description': """Definição: qualidade de quem ou do que é rápido; velocidade de execução.
+
+- **Estágio 0**: Você é o ser humano mais veloz em reação e execução de tarefas físicas.
+- **Estágio 1**: Manipula atributos de velocidade em si ou em objetos.
+- **Estágio 2**: Pode alterar o estado de rapidez — tornar algo extremamente rápido ou lento.
+- **Passiva**: Você reage instintivamente antes de qualquer perigo se manifestar.
+- **Estágio 3**: Manipula o conceito de rapidez — acelerando tudo ao seu redor em sentido amplo.
+- **Modo: Irrestrito**: Altera temporariamente o conceito do conceito de rapidez.""",
+    'image_url': 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnk3bm1maGJ2bDdsN2ZhdHdneXY5b3o0dGs1ajIxMzNwd3MzMjllZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KNApDbo5JqhfleFdrm/giphy.gif',
+    'color': Colors.BRANCO
+},
+
+'Força': {
+    'title': 'Palavra: Força',
+    'description': """Definição: capacidade de exercer poder físico ou impacto; vigor.
+
+- **Estágio 0**: Você possui a maior força física humana registrada.
+- **Estágio 1**: Manipula atributos da força física em objetos ou corpos.
+- **Estágio 2**: Pode transformar algo em forte ou fraco, afetando sua resistência ou impacto.
+- **Passiva**: Seus golpes e ações sempre têm mais potência do que o normal.
+- **Estágio 3**: Manipula o conceito de força — inclusive força de vontade ou simbólica.
+- **Modo: Irrestrito**: Altera temporariamente o conceito do conceito de força.""",
+    'image_url': 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExenpkNHdrbXR3NHh2ZDVkYml0NjA0ZzRxN3MwNTc4d3F0bWNsaWNxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/M8H7PlrNQewj0tPbNj/giphy.gif',
+    'color': Colors.VERMELHO
+},
+
+'Carisma': {
+    'title': 'Palavra: Carisma',
+    'description': """Definição: qualidade de atrair, encantar e influenciar outras pessoas.
+
+- **Estágio 0**: Você convence e encanta naturalmente quem estiver por perto.
+- **Estágio 1**: Manipula atributos de carisma — ampliando ou reduzindo sua influência.
+- **Estágio 2**: Pode aplicar ou remover carisma de outros, tornando-os líderes ou ignorados.
+- **Passiva**: Seus pedidos soam como ordens naturais, quase irresistíveis.
+- **Estágio 3**: Manipula o conceito de carisma — moldando autoridade, influência e encantamento no mundo.
+- **Modo: Irrestrito**: Altera temporariamente o conceito do conceito de carisma.""",
+    'image_url': 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjZ4MzBmc2x5bHN4amwwaWZ2NDF2cm1vZXc1bG9zb2pmeDk1MmZlYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CuJwtMF5EslC1zFnyY/giphy.gif',
+    'color': Colors.ROXO
+},
+
+'Inteligência': {
+    'title': 'Palavra: Inteligência',
+    'description': """Definição: capacidade de aprender, compreender e aplicar conhecimentos.
+
+- **Estágio 0**: Você é o ser humano mais intelectualmente habilidoso da atualidade.
+- **Estágio 1**: Manipula atributos de inteligência em si e em outros.
+- **Estágio 2**: Pode criar ou remover estados de inteligência — gênio ou tolice absoluta.
+- **Passiva**: Você compreende rapidamente qualquer conceito que entre em contato.
+- **Estágio 3**: Manipula o conceito de inteligência — aplicando sabedoria a contextos abstratos.
+- **Modo: Irrestrito**: Altera temporariamente o conceito do conceito de inteligência.""",
+    'image_url': 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHdpOW5vaTAwOWgzNjk4ejhncnVrZjZlcTlpODY2eXBsNTZxYXRuYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RoH7oWSHHRsXxmSYbb/giphy.gif',
+    'color': Colors.AZUL
+},
+
+'Dureza': {
+    'title': 'Palavra: Dureza',
+    'description': """Definição: qualidade de ser duro, resistente a deformações ou impactos.
+
+- **Estágio 0**: Você entende como tornar qualquer material ou postura mais resistente.
+- **Estágio 1**: Manipula atributos de dureza em superfícies e corpos.
+- **Estágio 2**: Pode tornar qualquer coisa rígida ou frágil em nível estrutural.
+- **Passiva**: Seu corpo é naturalmente mais difícil de romper, dobrar ou quebrar.
+- **Estágio 3**: Manipula o conceito de dureza — tornando ideias, relações ou leis inquebráveis.
+- **Modo: Irrestrito**: Altera temporariamente o conceito do conceito de dureza.""",
+    'image_url': 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHFwcDIwZ2duYjFnOWg1OGZ3b2xyMHUxaWlhMnAxejdvaHkxdXpseCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CCXb3l9RBCaRVHFWOw/giphy.gif',
+    'color': Colors.PRETO
+},
+
+'Resistência': {
+    'title': 'Palavra: Resistência',
+    'description': """Definição: capacidade de suportar esforço, dor ou pressão por tempo prolongado.
+
+- **Estágio 0**: Você pode suportar situações físicas e mentais por longos períodos.
+- **Estágio 1**: Manipula atributos de resistência em si e em outros.
+- **Estágio 2**: Pode gerar ou remover estados de resistência — exaustão ou perseverança extrema.
+- **Passiva**: Sua energia vital parece não se esgotar em batalhas longas.
+- **Estágio 3**: Manipula o conceito de resistência — oposição, durabilidade e persistência onde quiser.
+- **Modo: Irrestrito**: Altera temporariamente o conceito do conceito de resistência.""",
+    'image_url': 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDJienNiM25veXU4aTFqbTh0Nzc4ZnI0czE2cmh1M2RlbHMyZ2FidSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CEkrWgkg1LYfw73Aqs/giphy.gif',
+    'color': Colors.PRETO
+},
+
+'Nostalgia': {
+    'title': 'Palavra: Nostalgia',
+    'description': """Definição: sentimento de saudade idealizada de tempos passados.
+
+- **Estágio 0**: Você é mestre em evocar sentimentos nostálgicos em si e nos outros.
+- **Estágio 1**: Manipula atributos nostálgicos — sensações, imagens, atmosferas.
+- **Estágio 2**: Pode mergulhar lugares e pessoas em estados nostálgicos ou apagá-los.
+- **Passiva**: Sua presença evoca memórias afetivas mesmo em desconhecidos.
+- **Estágio 3**: Manipula o conceito de nostalgia — tempo, memória e afeto tornam-se moldáveis.
+- **Modo: Irrestrito**: Altera temporariamente o conceito do conceito de nostalgia.""",
+    'image_url': 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm94NTJ5b2hjams2dGRyZ3Y5Ym1xemR3dzRwbWN0dXFmd29idmsyZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kv1c5up59MS2B3i3vJ/giphy.gif',
+    'color': Colors.AMARELO
+},
+
+'Liso': {
+    'title': 'Palavra: Liso',
+    'description': """Definição: superfície sem rugosidade, atrito ou textura; escorregadia.
+
+- **Estágio 0**: Você entende e identifica todas as formas de suavidade e atrito.
+- **Estágio 1**: Manipula atributos de lisura — em objetos, superfícies ou até pele.
+- **Estágio 2**: Pode alterar o estado liso — tornar algo impossível de agarrar ou absurdamente escorregadio.
+- **Passiva**: Você escapa com facilidade de agarrões, prisões ou amarras.
+- **Estágio 3**: Manipula o conceito de liso — tanto literal quanto metafórico, como “escapar” de situações.
+- **Modo: Irrestrito**: Altera temporariamente o conceito do conceito de liso.""",
+    'image_url': 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHQ1Y2wzMHJzMmk3djJobTVwcHV0djlybzh3ZXR0c2ZzNjNobTk0MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/m1xBBvKcngel8qoCDm/giphy.gif',
+    'color': Colors.BRANCO
+},
+
+'Preto': {
+    'title': 'Palavra: Preto',
+    'description': """Definição: ausência de luz ou cor; tom mais escuro do espectro visível.
+
+- **Estágio 0**: Você entende o uso e impacto da cor preta em todas as formas.
+- **Estágio 1**: Manipula atributos relacionados ao preto — cor, densidade, profundidade.
+- **Estágio 2**: Pode transformar estados — escurecer completamente ou absorver luz e cor.
+- **Passiva**: Você pode desaparecer facilmente em ambientes escuros.
+- **Estágio 3**: Manipula o conceito de preto — ausência, mistério, sombra e silêncio.
+- **Modo: Irrestrito**: Altera temporariamente o conceito do conceito de preto.""",
+    'image_url': 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHplaGo2aXkxOWwxc3JhdXZ4anJzejZlMGNpMXNhM3lxbTRsOW80aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/n4JSH7Z560gYdxSy7Q/giphy.gif',
+    'color': Colors.PRETO
+},
+
+'Tamanho': {
+    'title': 'Palavra: Tamanho',
+    'description': """Definição: dimensão física ou escala de algo.
+
+- **Estágio 0**: Você tem noção precisa de proporções e escalas de tudo ao seu redor.
+- **Estágio 1**: Manipula atributos de tamanho em si ou em objetos/pessoas.
+- **Estágio 2**: Pode alterar estados — expandir ou reduzir o tamanho real ou simbólico de algo.
+- **Passiva**: Você pode se adaptar facilmente a qualquer escala sem desconforto.
+- **Estágio 3**: Manipula o conceito de tamanho — importância, influência ou escala podem ser moldadas.
+- **Modo: Irrestrito**: Altera temporariamente o conceito do conceito de tamanho.""",
+    'image_url': 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXd0ZG1meDFpdDUyYWltc3BtMm9wYjF3aHR4NTBwZ29hZGRoMjBheCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qwTMT2AgUuHwFreZXW/giphy.gif',
+    'color': Colors.AZUL
+},
+'Felicidade': {
+    'title': 'Palavra: Felicidade',
+    'description': """Definição: estado de espírito pleno de satisfação, contentamento ou alegria.\n\n
+- **Estágio 0**: Você compreende profundamente o que traz felicidade aos outros, podendo induzir momentos de alegria com gestos simples.
+- **Estágio 1**: Pode manipular os atributos da felicidade, como sua intensidade, duração e foco (felicidade por comida, companhia, etc).
+- **Estágio 2**: Pode gerar felicidade em pessoas, objetos ou locais e alternar seu estado (feliz ↔ neutro), podendo até tornar-se uma "presença feliz".
+- **Passiva**: Sua presença inspira emoções positivas e bem-estar.
+- **Estágio 3**: Manipula o conceito de felicidade em si, podendo alterá-lo ou aplicá-lo a ideias, memórias ou sensações.
+- **Modo: Irrestrito**: Altera temporariamente o que é felicidade no mundo ao seu redor.""",
+    'image_url': 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3k0a2xvZmw2MGJ5bXFua3UxMHl3aDMxNmttd3l5NTF2ejN4dWVsZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/C7IKtEWlrYnkucUH08/giphy.gif',
+    'color': Colors.AMARELO
+},
+
+'Dor': {
+    'title': 'Palavra: Dor',
+    'description': """Definição: sensação desagradável provocada por fatores físicos ou emocionais.\n
+- **Estágio 0**: Você compreende e reconhece todos os tipos de dor, sendo imune a traumas menores.
+- **Estágio 1**: Manipula atributos da dor — intensidade, tipo (corte, queimação), duração e localização.
+- **Estágio 2**: Pode induzir, transferir ou absorver dor, e assumir uma forma de "encarnação da dor".
+- **Passiva**: Você resiste a todos os tipos de dor, física ou emocional.
+- **Estágio 3**: Manipula o conceito de dor, aplicando-a em ideias, símbolos ou até lugares.
+- **Modo: Irrestrito**: Altera temporariamente o conceito de dor em todas as suas formas.""",
+    'image_url': 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3d6eHRnanRjdGFobzlvOXVidzZwb3ZzdjM3eTNmbzhoejB6OTEwOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rHtFaKfQdCp4cYSKwK/giphy.gif',
+    'color': Colors.VERMELHO
+},
+
+'Som': {
+    'title': 'Palavra: Som',
+    'description': """Definição: vibrações que se propagam por um meio e podem ser percebidas pela audição.\n
+- **Estágio 0**: Você possui percepção sonora extremamente aguçada e entende perfeitamente harmonia, frequência e timbre.
+- **Estágio 1**: Manipula atributos do som — volume, direção, frequência, duração e timbre.
+- **Estágio 2**: Pode gerar, silenciar ou moldar sons, tornando-se fonte sonora viva.
+- **Passiva**: Imune a distorções sonoras e hipersensível a alterações acústicas.
+- **Estágio 3**: Manipula o conceito de som — tornando pensamentos audíveis, ruídos visíveis ou aplicando som a coisas que normalmente não soam.
+- **Modo: Irrestrito**: Altera o conceito do conceito de som por tempo limitado.""",
+    'image_url': 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTB5OWZ5ZDdtbW41OHMzMW1hbWFnejFhMXVpc2Rranl2bnVrc2Z5byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/07iJVhWFQDdgzGsMR5/giphy.gif',
+    'color': Colors.CIANO
+},
+'Eletromagnetismo': {
+    'title': 'Palavra: Eletromagnetismo',
+    'description': """Definição: interação física que ocorre entre partículas com carga elétrica, unificando eletricidade e magnetismo.\n
+- **Estágio 0**: Você entende perfeitamente os fenômenos elétricos e magnéticos, podendo prever seus efeitos com precisão.
+- **Estágio 1**: Manipula atributos eletromagnéticos — polaridade, intensidade, frequência e campo.
+- **Estágio 2**: Pode gerar campos eletromagnéticos, anulá-los ou incorporar propriedades eletromagnéticas ao seu corpo.
+- **Passiva**: Seus movimentos e decisões não são afetados por ondas eletromagnéticas ou campos magnéticos.
+- **Estágio 3**: Manipula o conceito de eletromagnetismo, interferindo com comunicações, gravidade ou movimento.
+- **Modo: Irrestrito**: Reescreve temporariamente o que significa eletromagnetismo.""",
+    'image_url': 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTBtbmZuenVpdHFycWpuNXhmM3VpaWMxOXp3eGF1ZWYzOXFsOXNuaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4pAkj09i8BFhEoEvAE/giphy.gif',
+    'color': Colors.AZUL
+},
+
+'Gravidade': {
+    'title': 'Palavra: Gravidade',
+    'description': """Definição: força que atrai corpos com massa uns aos outros; peso.\n
+- **Estágio 0**: Você compreende e calcula a gravidade com precisão, reconhecendo suas variações com facilidade.
+- **Estágio 1**: Manipula atributos gravitacionais — direção, intensidade e alcance.
+- **Estágio 2**: Pode criar, remover ou inverter gravidade localmente e assumir forma gravitacional.
+- **Passiva**: Sua movimentação ignora efeitos negativos da gravidade.
+- **Estágio 3**: Manipula o conceito de gravidade — aplicando-a a ideias, vontades ou sentimentos.
+- **Modo: Irrestrito**: Temporariamente Altera o que é a gravidade no mundo ao redor.""",
+    'image_url': 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTV0NjNjNDhqemNid3YxcmdkNGp4bW96MGRreDhoNWpwdjlvMWRkaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SwRqAiPZBdQSBggrpl/giphy.gif',
+    'color': Colors.ROXO
+},
+
+'Tempo (Musical)': {
+    'title': 'Palavra: Tempo (Musical)',
+    'description': """Definição: velocidade ou andamento com que uma música deve ser executada.\n
+- **Estágio 0**: Você sente e domina perfeitamente qualquer andamento musical.
+- **Estágio 1**: Manipula atributos do tempo musical — aceleração, pausa, marcação rítmica e pulso.
+- **Estágio 2**: Pode aplicar andamentos musicais ao ambiente e ao seu corpo, ritmando ações e movimentos.
+- **Passiva**: Seu corpo sempre age em sincronia com o ritmo mais eficiente para cada ação.
+- **Estágio 3**: Manipula o conceito de tempo musical — tornando tudo ao seu redor regido por uma batida.
+- **Modo: Irrestrito**: Você Altera o próprio conceito de ritmo e tempo aplicado à existência.""",
+    'image_url': 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnhsNW9yZ3M5bG44NTdmM3M2OHZhdDVrNzExZjFubDBkOGZwcjN6ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dvaiiZfVLPLUaysZ2m/giphy.gif',
+    'color': Colors.LARANJA
+},
+
+'Atrito': {
+    'title': 'Palavra: Atrito',
+    'description': """Definição: força que resiste ao movimento relativo entre superfícies em contato.\n
+- **Estágio 0**: Você entende a física do atrito em qualquer superfície, com precisão absoluta.
+- **Estágio 1**: Manipula atributos do atrito — aumentando, reduzindo ou redirecionando seu efeito.
+- **Estágio 2**: Pode gerar atrito em pleno ar, remover atrito do chão, ou incorporar atrito ao seu corpo ou objetos.
+- **Passiva**: Seus movimentos são otimizados, com total controle de aderência e deslizamento.
+- **Estágio 3**: Manipula o conceito de atrito, aplicando resistência ou fluidez a qualquer coisa.
+- **Modo: Irrestrito**: Reescreve temporariamente a existência e aplicação do atrito.""",
+    'image_url': 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGQxOGN5azJ0YW42ZzdpbmU2MXdjOGhyMzdxZGZtcGR6eXp5NjNjNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8WOINgtcKYJqXGBk1I/giphy.gif',
+    'color': Colors.PRETO
+},
+
+'Sonho': {
+    'title': 'Palavra: Sonho',
+    'description': """Definição: conjunto de imagens, ideias e sensações vividas durante o sono ou um ideal imaginado.\n
+- **Estágio 0**: Você entende simbolismos e significados ocultos nos sonhos alheios com facilidade.
+- **Estágio 1**: Manipula atributos de sonhos — intensidade, lucidez, duração e tema.
+- **Estágio 2**: Pode invadir ou criar sonhos em outros, ou entrar em um estado de sonho ativo.
+- **Passiva**: Você recupera energia enquanto sonha e raramente dorme involuntariamente.
+- **Estágio 3**: Manipula o conceito de sonho — tornando ilusões reais ou aplicando sonho a estados acordados.
+- **Modo: Irrestrito**: Altera temporariamente o que é sonho e o que é realidade.""",
+    'image_url': 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXowM2NiYTVqOWk5aGN1bHFvM2M5MTE5cXRobnJlaDlwMXV3cTV1ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gq607lYNzeZQcIWR13/giphy.gif',
+    'color': Colors.CIANO
+},
+
+'Lag': {
+    'title': 'Palavra: Lag',
+    'description': """Definição: atraso ou lentidão entre uma ação e sua consequência, especialmente em sistemas digitais.\n
+- **Estágio 0**: Você sente qualquer tipo de descompasso, falha de tempo ou resposta atrasada com precisão.
+- **Estágio 1**: Manipula atributos do lag — atraso, duração, intervalo e alcance.
+- **Estágio 2**: Pode aplicar atrasos a ações, palavras, ou movimentos seus e dos outros.
+- **Passiva**: Você nunca sofre com atrasos mentais ou reflexos.
+- **Estágio 3**: Manipula o conceito de lag — atrasando até sentimentos, decisões ou lógica.
+- **Modo: Irrestrito**: Altera temporariamente o que é atraso e como o mundo responde a ações.""",
+    'image_url': 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjJ4dmxndTkxdHp1c2c3aGFlbGpoeTFieXVzbnJ1OXNuOTVjc296eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FA49CIMkO9SfGDQqJQ/giphy.gif',
+    'color': Colors.ROXO
+},
+
+'Ressonância': {
+    'title': 'Palavra: Ressonância',
+    'description': """Definição: reforço de vibração natural de um sistema quando exposto a uma frequência correspondente.\n
+- **Estágio 0**: Você detecta facilmente ressonâncias naturais em qualquer ambiente ou objeto.
+- **Estágio 1**: Manipula atributos de ressonância — frequência, intensidade, harmonia e tempo.
+- **Estágio 2**: Pode forçar ressonância entre corpos ou sentimentos, ou tornar-se fonte de eco e amplificação.
+- **Passiva**: Seu corpo vibra de forma harmônica, resistindo a forças destrutivas.
+- **Estágio 3**: Manipula o conceito de ressonância — sincronizando ideias, emoções ou eventos.
+- **Modo: Irrestrito**: Altera temporariamente o que significa vibrar em sintonia.""",
+    'image_url': 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnUycDl0ZmVwM2Y2dXZjejFxaW05dGd3ZTBjeWY2ano1YjY0cmJtciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nUCMxWhvxzM9vdMIpP/giphy.gif',
+    'color': Colors.AZUL
+},
+
+'Retorno': {
+    'title': 'Palavra: Retorno',
+    'description': """Definição: ação de voltar a um ponto de origem ou retribuição.\n
+- **Estágio 0**: Você compreende ciclos, consequências e reações como ninguém.
+- **Estágio 1**: Manipula atributos de retorno — tempo, força, alvo e forma.
+- **Estágio 2**: Pode devolver ataques, repetir ações ou fazer objetos voltarem ao estado anterior.
+- **Passiva**: Seus erros e danos sempre voltam com menor impacto.
+- **Estágio 3**: Manipula o conceito de retorno — fazendo ideias, eventos ou sentimentos retornarem.
+- **Modo: Irrestrito**: Reescreve temporariamente a lógica do que pode ou não voltar.""",
+    'image_url': 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWNmbWZjdXZta2k5MTlnYnFwZzNyZmN6dnQxM3F4NWNlemZvYzZ4NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4AQNzWqau56rp9RGbn/giphy.gif',
+    'color': Colors.VERDE
+},
+
+'Soma': {
+    'title': 'Palavra: Soma',
+    'description': """Definição: resultado da adição de dois ou mais elementos.\n\n
+- **Estágio 0**: Você calcula e combina elementos intuitivamente, com maestria.
+- **Estágio 1**: Manipula atributos da soma — quantidade, ordem, tipo e valor dos somados.
+- **Estágio 2**: Pode somar conceitos, objetos ou efeitos, criando resultados híbridos ou acumulativos.
+- **Passiva**: Suas ações tendem a acumular efeitos positivos.
+- **Estágio 3**: Manipula o conceito de soma — unindo ideias, histórias ou probabilidades.
+- **Modo: Irrestrito**: Altera o que é somar — combinando até opostos.""",
+    'image_url': 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3U2NjExdzd5N3dxaWw5aHFyc3ZlN3ByZzY5cXdxZ2RhcmZldXRmdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FL46di7XoaRIqIg57G/giphy.gif',
+    'color': Colors.AMARELO
+},
+
+'Monarca': {
+    'title': 'Palavra: Monarca',
+    'description': """Definição: soberano absoluto de um reino ou estado; rei ou rainha.\n
+- **Estágio 0**: Você compreende profundamente dinâmicas de liderança e hierarquia.
+- **Estágio 1**: Manipula atributos de um monarca — autoridade, respeito, ordem e presença.
+- **Estágio 2**: Pode emanar influência dominante, forçar obediência ou se tornar a representação viva de um trono.
+- **Passiva**: Sua presença impõe respeito natural e evita conflitos diretos.
+- **Estágio 3**: Manipula o conceito de monarca — aplicando domínio e soberania em qualquer situação.
+- **Modo: Irrestrito**: Altera temporariamente o que é reinar — fazendo de você o centro absoluto.""",
+    'image_url': 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzIzeWE1YmR0Nnlzd2swemNmOHUzeG5rY3MwN3hraGlxam55NzRnbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UmJxWvFPXeSEzE2QHL/giphy.gif',
+    'color': Colors.PRETO
+},
+'Golpear': {
+    'title': 'Palavra: Golpear',
+    'description': """Definição: atingir com um golpe; bater ou agredir com força.
+
+- **Estágio 0**: Você domina todas as formas conhecidas de golpes físicos, desde técnicas marciais até improvisações.
+- **Estágio 1**: Manipula os atributos de um golpe — intensidade, direção, área de impacto, entre outros.
+- **Estágio 2**: Pode aplicar o estado de "golpeado" em alvos sem contato direto, estendendo a ideia de golpe para múltiplos meios.
+- **Passiva**: Seus golpes ignoram resistência comum e são mais difíceis de prever ou bloquear.
+- **Estágio 3**: Manipula o conceito de golpe — tudo que for afetado por você pode ser tratado como um golpe, inclusive palavras, ideias e emoções.
+- **Modo: Irrestrito**: Altera temporariamente o que é considerado um golpe no mundo, desde uma olhada até a ausência de ação.""",
+    'image_url': 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3Axc2toY2d4NGNienR4YnB0ZnIxeG8wYmVua3lhOGpuOGluazdieiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RFXHXXfI9YIZTQAJLK/giphy.gif',
+    'color': Colors.VERMELHO
+},
+
+'Produzir': {
+    'title': 'Palavra: Produzir',
+    'description': """Definição: criar, gerar ou fabricar algo a partir de matéria, energia ou ideias.
+
+- **Estágio 0**: Você tem eficiência máxima ao criar coisas manualmente, como alimentos, itens ou arte.
+- **Estágio 1**: Manipula os atributos do processo de produção — velocidade, escala, complexidade.
+- **Estágio 2**: Pode produzir elementos complexos do nada ou alterar a origem de algo produzido.
+- **Passiva**: O que você cria é sempre funcional e difícil de replicar por outros.
+- **Estágio 3**: Manipula o conceito de produção — fazer com que qualquer coisa surja, mesmo sem lógica aparente.
+- **Modo: Irrestrito**: Durante o irrestrito, tudo ao seu redor passa a gerar versões de si mesmo em cadeia, em um ciclo que para após o efeito.""",
+    'image_url': 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjIwanAyd3MxYXE3OTNrazRuazF0ODVqNGJxNnozeWVwcDVuemNscyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZkEKlEjKl7yEqx8J2N/giphy.gif',
+    'color': Colors.AMARELO
+},
+
+'Cultivar': {
+    'title': 'Palavra: Cultivar',
+    'description': """Definição: cuidar de algo para que cresça ou se desenvolva — geralmente plantas, mas também ideias, relações, etc.
+
+- **Estágio 0**: Você entende profundamente os ciclos de crescimento de seres vivos e ideias.
+- **Estágio 1**: Manipula o crescimento — acelera, desacelera ou condiciona o cultivo de qualquer coisa.
+- **Estágio 2**: Pode criar campos de cultivo de ideias, emoções ou matéria orgânica.
+- **Passiva**: Tudo que você planta ou inicia tem um desenvolvimento constante e sustentável.
+- **Estágio 3**: Manipula o conceito de cultivar — fazer com que qualquer coisa evolua com cuidado e intenção.
+- **Modo: Irrestrito**: Tudo ao seu redor entra em estado de crescimento rápido e controlado por você.""",
+    'image_url': 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDR0NXptZ3B3MHI0Z2hnb3AxaTVjbzVuYXlyZnhtNmF0bnMyNGlrdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/P3TAfhCOdtuEgQQdK2/giphy.gif',
+    'color': Colors.VERDE
+},
+
+'Roubar': {
+    'title': 'Palavra: Roubar',
+    'description': """Definição: tomar algo que pertence a outro sem permissão.
+
+- **Estágio 0**: Você é um mestre em furtos, entendendo o momento, valor e consequência de cada roubo.
+- **Estágio 1**: Manipula atributos de roubo — o que, quando e quanto se perde ou se transfere.
+- **Estágio 2**: Pode roubar coisas intangíveis como sorte, conhecimento ou tempo de alguém.
+- **Passiva**: O que você rouba não pode ser facilmente recuperado e se adapta bem a você.
+- **Estágio 3**: Manipula o conceito de roubo — tomar de qualquer forma, mesmo sem contato direto ou intenção perceptível.
+- **Modo: Irrestrito**: O universo passa a permitir que você tome aquilo que "não deveria ser tomado", inclusive conceitos como destino ou propósito.""",
+    'image_url': 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExemptdHJjZHJkaWNqdHRodWJ2dHRzb2FnaWw5cTl5ZDNnOHQ5OXVrOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Gq1V5eUAxwTWyTRI24/giphy.gif',
+    'color': Colors.ROXO
+},
+
+'Curar': {
+    'title': 'Palavra: Curar',
+    'description': """Definição: restaurar a saúde, reparar danos ou aliviar dores.
+
+- **Estágio 0**: Você tem a melhor compreensão possível de processos de cura naturais e medicinais.
+- **Estágio 1**: Manipula a velocidade e qualidade da cura, além de aplicar cura seletiva.
+- **Estágio 2**: Pode curar traumas mentais, espirituais ou mesmo entidades não-biológicas.
+- **Passiva**: Sua presença acelera a recuperação de aliados e ambientes.
+- **Estágio 3**: Manipula o conceito de cura — fazendo com que qualquer coisa volte ao seu estado "ideal".
+- **Modo: Irrestrito**: Você pode reverter eventos ao estado anterior ao "dano", curando até o tempo.""",
+    'image_url': 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2FtdWxxY2IzOWIycXI4aW92aWh0enR1dDNjODdnbDF0YnpibHk0MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XQ5JzhnZ665ZjXOaB7/giphy.gif',
+    'color': Colors.AZUL
+},
+'Brutalizar': {
+    'title': 'Palavra: Brutalizar',
+    'description': """Definição: agir com extrema violência, crueldade ou força desenfreada.
+
+- **Estágio 0**: Você compreende profundamente as manifestações mais intensas de agressão e força bruta.
+- **Estágio 1**: Manipula os atributos de ações violentas — intensidade, impacto, alcance emocional.
+- **Estágio 2**: Pode brutalizar o ambiente ou conceitos, fazendo com que qualquer coisa seja corrompida pela violência.
+- **Passiva**: Seus ataques e ações têm um efeito psicológico desmoralizante.
+- **Estágio 3**: Manipula o conceito de brutalidade — tudo que você toca ou influencia se torna brutal.
+- **Modo: Irrestrito**: Você transforma a realidade em um estado de brutalidade latente, onde tudo colapsa para a violência.""",
+    'image_url': 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDM3eWFrMmt4bHJudGZoeWx3aG4zMGFwamNpd25ncG9zMHUxeGI4YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/59Z2Kj0sN712PrKK5K/giphy.gif',
+    'color': Colors.VERMELHO
+},
+
+'Dançar': {
+    'title': 'Palavra: Dançar',
+    'description': """Definição: mover-se ritmicamente ao som de música ou impulsos internos.
+
+- **Estágio 0**: Você é o dançarino mais talentoso, com controle total sobre ritmo, fluidez e expressão.
+- **Estágio 1**: Manipula atributos da dança — velocidade, graça, impacto no ambiente e até nos outros.
+- **Estágio 2**: Pode forçar o ambiente ou pessoas a seguirem o seu "ritmo" e transformá-lo em dança literal ou simbólica.
+- **Passiva**: Seu corpo flui com uma leveza sobrenatural e atrai atenção.
+- **Estágio 3**: Manipula o conceito de dançar — tudo pode entrar em harmonia ou fluxo com sua intenção.
+- **Modo: Irrestrito**: O mundo ao redor dança com você, regido por sua vontade e seu compasso.""",
+    'image_url': 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWkzdnBnOGJ3NTY1aDVwd3Vlc2d0c283NDF6cGYyeWpoMXVpMnBoMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cf3hHIgtnMPMtqRGBK/giphy.gif',
+    'color': Colors.CIANO
+},
+
+'Planejar': {
+    'title': 'Palavra: Planejar',
+    'description': """Definição: organizar mentalmente ou estruturar ações futuras com objetivos claros.
+
+- **Estágio 0**: Você é o melhor estrategista e sempre tem planos detalhados para cada situação.
+- **Estágio 1**: Manipula os atributos de um plano — duração, precisão, adaptabilidade.
+- **Estágio 2**: Pode tornar planos realidade parcial mesmo antes de executá-los.
+- **Passiva**: Seus planos são quase inevitáveis de se realizarem.
+- **Estágio 3**: Manipula o conceito de planejamento — você define o destino das coisas antes que aconteçam.
+- **Modo: Irrestrito**: Toda a realidade passa a se moldar de acordo com o seu plano mestre.""",
+    'image_url': 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWFsN3ZiMjVjcjc2MHg2dHcxMjZ5ZzZueWRiZTZiZG5ybXJodnl6ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XcabYJnOhiked32EZz/giphy.gif',
+    'color': Colors.PRETO
+},
+
+'Acertar': {
+    'title': 'Palavra: Acertar',
+    'description': """Definição: atingir o alvo com precisão ou fazer algo corretamente.
+
+- **Estágio 0**: Você raramente erra qualquer coisa que tente, com uma taxa de acerto quase perfeita.
+- **Estágio 1**: Manipula os atributos de acerto — alcance, precisão, inevitabilidade.
+- **Estágio 2**: Pode "acertar" conceitos, como acertar uma ideia, uma escolha ou um sentimento.
+- **Passiva**: Seus acertos afetam mais do que o esperado, com consequências em cadeia.
+- **Estágio 3**: Manipula o conceito de acerto — tudo que você faz tende a resultar corretamente.
+- **Modo: Irrestrito**: Durante o irrestrito, tudo o que você fizer será o acerto ideal, não importa como.""",
+    'image_url': 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHF6NWtwZ3BmaDJhc2h3bHIwMWlhc3QzYXpndHE2dnc2eXgxeWg1diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GLQuTzY81a4PIbTgOO/giphy.gif',
+    'color': Colors.AZUL
+},
+
+'Apodrecer': {
+    'title': 'Palavra: Apodrecer',
+    'description': """Definição: decompor-se ou deteriorar-se gradualmente, física ou simbolicamente.
+
+- **Estágio 0**: Você compreende com perfeição o processo de decadência e putrefação.
+- **Estágio 1**: Manipula atributos de decomposição — velocidade, profundidade, alvo.
+- **Estágio 2**: Pode apodrecer objetos imateriais como memórias, estruturas sociais ou ideias.
+- **Passiva**: Tudo que você negligencia tende a se deteriorar naturalmente.
+- **Estágio 3**: Manipula o conceito de apodrecer — tornando tudo suscetível à entropia.
+- **Modo: Irrestrito**: O tempo e a estabilidade das coisas ao seu redor entram em colapso, apodrecendo por existência.""",
+    'image_url': 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHM4cnI5aHk3dnNhbnl2b2F1aHJxbWF3dmtpbmZjNzN5bnM1YTQxMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2yGcHhmjk4PQliNOAx/giphy.gif',
+    'color': Colors.ROXO
+},
+
+'Iluminar': {
+    'title': 'Palavra: Iluminar',
+    'description': """Definição: tornar algo visível, claro ou compreensível através da luz ou conhecimento.
+
+- **Estágio 0**: Você é excelente em fazer os outros entenderem algo, revelar e trazer clareza.
+- **Estágio 1**: Manipula a luz ou entendimento — foco, intensidade, alcance.
+- **Estágio 2**: Pode tornar ideias e verdades visíveis ou "iluminar" lugares que não existem.
+- **Passiva**: Sua presença tende a revelar o que está escondido.
+- **Estágio 3**: Manipula o conceito de iluminação — tudo pode ser clareado, exposto ou elevado.
+- **Modo: Irrestrito**: Toda escuridão, dúvida ou mistério desaparece temporariamente diante da sua luz.""",
+    'image_url': 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXNraHV1M28xbzN5anNsOXZkcmptcjN2am5pcGY0b3NvaHNqa2M3bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/m0B8R1QqNuCfViycll/giphy.gif',
+    'color': Colors.AMARELO
+},
+
+'Teleportar': {
+    'title': 'Palavra: Teleportar',
+    'description': """Definição: mover-se instantaneamente de um ponto a outro.
+
+- **Estágio 0**: Você conhece e calcula deslocamentos com perfeição.
+- **Estágio 1**: Manipula atributos do teleporte — alcance, destino, quantidade.
+- **Estágio 2**: Pode teletransportar ideias, emoções ou até momentos no tempo.
+- **Passiva**: Seus movimentos são imprevisíveis e quase instantâneos.
+- **Estágio 3**: Manipula o conceito de presença — estar onde quiser, mesmo sem movimento.
+- **Modo: Irrestrito**: O espaço deixa de ser uma limitação, você e tudo ao seu redor podem surgir em qualquer lugar.""",
+    'image_url': 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWRhdGl0MnRqc2Jyd3E0aTMyaWExZm5qaG51ZW1sczVjaGk3cWdieCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HJuhEMfP9lPzT0ulDr/giphy.gif',
+    'color': Colors.CIANO
+},
+
+'Caçar': {
+    'title': 'Palavra: Caçar',
+    'description': """Definição: perseguir algo com o objetivo de capturar ou eliminar.
+
+- **Estágio 0**: Você é o maior rastreador, estrategista e perseguidor natural.
+- **Estágio 1**: Manipula atributos da caçada — foco, resistência, sigilo.
+- **Estágio 2**: Pode caçar conceitos, emoções ou até destinos.
+- **Passiva**: Tudo que você persegue tende a ser inevitavelmente alcançado.
+- **Estágio 3**: Manipula o conceito de caça — todo o universo passa a ver algo como sua presa.
+- **Modo: Irrestrito**: Sua presa não tem escapatória, independentemente de onde ou o que seja.""",
+    'image_url': 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGx4dmRtcHEzYnJqN2tsZmZmeHV5N3Z3N3Mwb3g5NTlnYnlqbWpiOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iwl3TiUU6LTrML6ooW/giphy.gif',
+    'color': Colors.VERMELHO
+},
+
+'Cirurgia': {
+    'title': 'Palavra: Cirurgia',
+    'description': """Definição: procedimento técnico e preciso para modificar corpos, sistemas ou estruturas.
+
+- **Estágio 0**: Você domina anatomia, procedimentos médicos e reparos corporais.
+- **Estágio 1**: Manipula atributos de uma cirurgia — precisão, tipo de intervenção, tempo.
+- **Estágio 2**: Pode operar estruturas não físicas, como emoções, ideias ou relações.
+- **Passiva**: Suas intervenções são sempre minimamente invasivas e eficazes.
+- **Estágio 3**: Manipula o conceito de cirurgia — pode modificar qualquer coisa com precisão absoluta.
+- **Modo: Irrestrito**: Você "opera" o mundo, removendo, implantando ou corrigindo até leis universais.""",
+    'image_url': 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2djZGMydzhrajY0NTZyN3owaTU5bm0zb3dwemMxY294MjBvYWpzbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1BuP7iRMql5xZhFs3G/giphy.gif',
+    'color': Colors.BRANCO
+},
+
+'Cantar': {
+    'title': 'Palavra: Cantar',
+    'description': """Definição: emitir som com ritmo e melodia, geralmente com a voz.
+
+- **Estágio 0**: Você é o cantor mais expressivo, afinado e impactante.
+- **Estágio 1**: Manipula os atributos da voz — alcance, emoção, efeitos.
+- **Estágio 2**: Pode cantar para afetar diretamente a realidade, curar, controlar ou alterar.
+- **Passiva**: Sua voz tem efeito emocional real nas pessoas ao redor.
+- **Estágio 3**: Manipula o conceito de canto — o universo ressoa com sua melodia.
+- **Modo: Irrestrito**: Cada nota que você emite altera o mundo em um nível conceitual.""",
+    'image_url': 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnVkMjdwYWRydjd6Y2xmaWF5ZzY5OWR0ajNtdXFwOTg0MXc4Z3VxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Zor8Z7RQso67MhpX42/giphy.gif',
+    'color': Colors.CIANO
+},
+
+'Impulsionar': {
+    'title': 'Palavra: Impulsionar',
+    'description': """Definição: dar impulso ou força para algo avançar ou crescer.
+
+- **Estágio 0**: Você entende o momento e a força certa para acelerar pessoas, ideias ou ações.
+- **Estágio 1**: Manipula o impulso — velocidade, direção, impacto.
+- **Estágio 2**: Pode impulsionar o tempo, conceitos ou emoções.
+- **Passiva**: Você naturalmente acelera processos e ideias ao seu redor.
+- **Estágio 3**: Manipula o conceito de impulso — tudo que você toca ganha um novo movimento inevitável.
+- **Modo: Irrestrito**: Tudo se torna propulsionado ao extremo, como uma explosão de progresso em tudo que você deseja.""",
+    'image_url': 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3J3M3k4bm83cnJoYmM3cHp6cGR1NHU1YmdnYXFzd3I4eHFyZDJ3eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2G72eLZIuxjJUMUtLH/giphy.gif',
+    'color': Colors.LARANJA
+}
+
 }
 
 # Lista de todos os comandos disponíveis para sugestões
