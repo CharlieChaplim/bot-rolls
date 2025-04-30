@@ -328,17 +328,10 @@ WIKI_INFO = {
 'Uno': {
     'title': 'Uno - Investigação',
     'description': (
-        """A Uno é a espinha dorsal do submundo da informação. Num sistema onde o conhecimento é moeda de poder, 
-        a Uno atua como a principal detentora e negociadora de segredos. Sua estrutura é dividida entre funcionários 
-        administrativos, "olhos" e "ouvidos", cada qual com uma função clara na teia de vigilância urbana. Em meio à 
-        liberdade caótica da cidade, a Uno prospera oferecendo informações precisas, vendidas por preço alto — em favores, 
-        recursos ou dados. Seu atual líder é **Raviel**.\n
-        - **Funcionários**: Responsáveis por organizar, catalogar e gerenciar os dados obtidos. Trabalham em escritórios ocultos, 
-        muitas vezes sem saber quem são os espiões ou de onde vêm as informações.
-        - **Olhos**: São os observadores, infiltrados em locais estratégicos, com poderes voltados à percepção, análise e ilusão. 
-        São os responsáveis por capturar imagens, cenas e comportamentos.
-        - **Ouvidos**: Mestres em escuta e infiltração, operam como sombras nos corredores da cidade. Com habilidades de mimetismo 
-        e espionagem auditiva, são eles que interceptam conversas, confissões e ameaças."""
+"""A Uno é a espinha dorsal do submundo da informação. Num sistema onde o conhecimento é moeda de poder,  a Uno atua como a principal detentora e negociadora de segredos. Sua estrutura é dividida entre funcionários  administrativos, "olhos" e "ouvidos", cada qual com uma função clara na teia de vigilância urbana. Em meio à  liberdade caótica da cidade, a Uno prospera oferecendo informações precisas, vendidas por preço alto — em favores, recursos ou dados. Seu atual líder é **Raviel**.\n
+- **Funcionários**: Responsáveis por organizar, catalogar e gerenciar os dados obtidos. Trabalham em escritórios ocultos, muitas vezes sem saber quem são os espiões ou de onde vêm as informações.
+- **Olhos**: São os observadores, infiltrados em locais estratégicos, com poderes voltados à percepção, análise e ilusão. São os responsáveis por capturar imagens, cenas e comportamentos.
+- **Ouvidos**: Mestres em escuta e infiltração, operam como sombras nos corredores da cidade. Com habilidades de mimetismo e espionagem auditiva, são eles que interceptam conversas, confissões e ameaças."""
     ),
     'image_url': 'https://i.imgur.com/RPuGOvA.png',
     'color': Colors.ROXO,
@@ -348,13 +341,10 @@ WIKI_INFO = {
     'Zwei': {
         'title': 'Zwei - Proteção',
         'description': (
-        """A Zwei representa o braço protetor da cidade, mesmo num sistema onde a segurança é uma escolha de mercado. 
-        Seus membros vestem armaduras pesadas e agem guiados por um ideal de preservação da vida — mesmo quando isso entra em choque com o lucro. 
-        Com ações marcadas por coragem e sacrifício, a Zwei é respeitada, mas sua ética altruísta frequentemente causa atritos com o restante da cidade. 
-        Sua atual líder é **Tereza**.\n
-        - **Funcionários**: Trabalham na base de operações, organizando patrulhas, missões de resgate e logística da milícia.
-        - **Milícia**: Força de combate principal, equipada com armaduras rústicas e poderes defensivos. Atuam em emergências e zonas de risco elevado.
-        - **Escudo**: Especialistas em contenção e evacuação. Se colocam entre o perigo e os civis, mesmo que isso custe caro."""
+"""A Zwei representa o braço protetor da cidade, mesmo num sistema onde a segurança é uma escolha de mercado. Seus membros vestem armaduras pesadas e agem guiados por um ideal de preservação da vida — mesmo quando isso entra em choque com o lucro. Com ações marcadas por coragem e sacrifício, a Zwei é respeitada, mas sua ética altruísta frequentemente causa atritos com o restante da cidade. Sua atual líder é **Tereza**.\n
+- **Funcionários**: Trabalham na base de operações, organizando patrulhas, missões de resgate e logística da milícia.
+- **Milícia**: Força de combate principal, equipada com armaduras rústicas e poderes defensivos. Atuam em emergências e zonas de risco elevado.
+- **Escudo**: Especialistas em contenção e evacuação. Se colocam entre o perigo e os civis, mesmo que isso custe caro."""
     ),
         'image_url': 'https://imgur.com/D5idwnG.png',  # Substitua pelo URL real da imagem
         'color': Colors.AZUL,
@@ -363,13 +353,10 @@ WIKI_INFO = {
     'San': {
         'title': 'San - Transporte',
         'description': (
-        """A San é o motor movido a carvão que nunca para. Como a maior transportadora da cidade, sua lógica é simples: lucro sobre trilhos. 
-        Com linhas ferroviárias cruzando setores inteiros, a San é a espinha dorsal da logística urbana e industrial. 
-        Seus cortes de gastos extremos levaram à criação de forças armadas internas — a temida Equipe de Limpeza. 
-        Seu atual líder é **Hermiton**, uma figura difícil de encontrar até para seus subordinados.\n
-        - **Funcionários**: Administram rotas, vagões e manutenção mínima. Trabalham sob intensa pressão por resultados.
-        - **Equipe de Limpeza**: Força de combate interna da San, especializada em lidar com "imprevistos", como assaltos, sabotagens e greves.
-        - **Equipe de Manutenção**: Com poderes voltados à reconstrução e tecnologia, mantém os trilhos operacionais mesmo sob condições adversas."""
+"""A San é o motor movido a carvão que nunca para. Como a maior transportadora da cidade, sua lógica é simples: lucro sobre trilhos. Com linhas ferroviárias cruzando setores inteiros, a San é a espinha dorsal da logística urbana e industrial. Seus cortes de gastos extremos levaram à criação de forças armadas internas — a temida Equipe de Limpeza. Seu atual líder é **Hermiton**, uma figura difícil de encontrar até para seus subordinados.\n
+- **Funcionários**: Administram rotas, vagões e manutenção mínima. Trabalham sob intensa pressão por resultados.
+- **Equipe de Limpeza**: Força de combate interna da San, especializada em lidar com "imprevistos", como assaltos, sabotagens e greves.
+- **Equipe de Manutenção**: Com poderes voltados à reconstrução e tecnologia, mantém os trilhos operacionais mesmo sob condições adversas."""
     ),
         'image_url': 'https://i.imgur.com/MJvwO8B.png',  # Substitua pelo URL real da imagem
         'color': Colors.AMARELO,
@@ -378,16 +365,14 @@ WIKI_INFO = {
     'Arba\'a': {
         'title': 'Arba\'a - Assasinatos',
         'description': (
-        """A Arba’a vive um período de reconstrução após uma queda catastrófica. Antigamente temida como a organização de assassinos mais mortal da cidade, 
-        hoje opera nas sombras, tentando retomar seu prestígio. Cada “dedo” da Arba’a representa um estilo único de morte, refletindo a especialização da hierarquia. 
-        São cinco grupos principais, conhecidos como a mão da morte. Atualmente, a líder é **Ilya**.\n
-        - **Funcionários**: Administram contratos, pagamentos e a estrutura decadente da organização.
-        - **Padrinho & Madrinha**: Líderes da velha guarda. Agem com brutalidade e precisão cirúrgica, mantendo viva a tradição da Arba’a.
-        - **Polegar**: Especialistas em força bruta — confrontos diretos, mortes viscerais.
-        - **Indicador**: Mestres das armas de fogo. Precisos e raros numa cidade onde munição é escassa.
-        - **Meio**: Disciplinados e metódicos. Matam com o corpo, usando artes marciais e anatomia.
-        - **Anelar**: Sussurram a morte. Agem com extrema sutileza, invisíveis.
-        - **Mínimo**: Engenheiros da morte indireta. Armadilhas, explosivos e venenos letais e silenciosos."""
+"""A Arba’a vive um período de reconstrução após uma queda catastrófica. Antigamente temida como a organização de assassinos mais mortal da cidade, hoje opera nas sombras, tentando retomar seu prestígio. Cada “dedo” da Arba’a representa um estilo único de morte, refletindo a especialização da hierarquia. São cinco grupos principais, conhecidos como a mão da morte. Atualmente, a líder é **Ilya**.\n
+- **Funcionários**: Administram contratos, pagamentos e a estrutura decadente da organização.
+- **Padrinho & Madrinha**: Líderes da velha guarda. Agem com brutalidade e precisão cirúrgica, mantendo viva a tradição da Arba’a.
+- **Polegar**: Especialistas em força bruta — confrontos diretos, mortes viscerais.
+- **Indicador**: Mestres das armas de fogo. Precisos e raros numa cidade onde munição é escassa.
+- **Meio**: Disciplinados e metódicos. Matam com o corpo, usando artes marciais e anatomia.
+- **Anelar**: Sussurram a morte. Agem com extrema sutileza, invisíveis.
+- **Mínimo**: Engenheiros da morte indireta. Armadilhas, explosivos e venenos letais e silenciosos."""
     ),
         'image_url': 'https://i.imgur.com/QTf3dbV.png',  # Substitua pelo URL real da imagem
         'color': Colors.VERMELHO,
@@ -396,12 +381,10 @@ WIKI_INFO = {
     'Cinq': {
         'title': 'Cinq - Justiça',
         'description': (
-        """A Cinq é a encarnação da lei absoluta em meio ao caos. Mesmo numa sociedade onde a liberdade impera, alguém precisa traçar limites — 
-        ou ao menos parecer que o faz. Sua sede imponente e julgamentos públicos tornaram a Cinq uma entidade temida e reverenciada. 
-        Suas decisões são definitivas e suas execuções, exemplares. Seu atual líder é **Peter**.\n
-        - **Funcionários**: Secretários, analistas e operadores jurídicos. Reúnem provas e organizam julgamentos.
-        - **Juiz**: Autoridades supremas. Julgam com base na tradição e interpretação pessoal da justiça.
-        - **Executor**: Cumpre as sentenças. Letal e implacável, com poderes voltados à punição e fim."""
+"""A Cinq é a encarnação da lei absoluta em meio ao caos. Mesmo numa sociedade onde a liberdade impera, alguém precisa traçar limites — ou ao menos parecer que o faz. Sua sede imponente e julgamentos públicos tornaram a Cinq uma entidade temida e reverenciada. Suas decisões são definitivas e suas execuções, exemplares. Seu atual líder é **Peter**.\n
+- **Funcionários**: Secretários, analistas e operadores jurídicos. Reúnem provas e organizam julgamentos.
+- **Juiz**: Autoridades supremas. Julgam com base na tradição e interpretação pessoal da justiça.
+- **Executor**: Cumpre as sentenças. Letal e implacável, com poderes voltados à punição e fim."""
     ),
         'image_url': 'https://i.imgur.com/2PoXV2o.png',  # Substitua pelo URL real da imagem
         'color': Colors.AMARELO,
@@ -410,12 +393,10 @@ WIKI_INFO = {
     'Sita': {
         'title': 'Sita - Economia',
         'description': (
-        """A Sita controla a cidade por onde realmente importa: o bolso. Detentora do maior mercado e banco local, é nela que o valor das coisas — e das pessoas — é definido. 
-        Sua estrutura aristocrática é composta por barões e baronesas que dominam setores como feudos, enquanto o consumidor é apenas um número com carteira. 
-        Na Sita, tudo tem um preço. Juros, taxas e cláusulas escondidas são parte do jogo. Sua atual líder é **Rxya**.\n
-        - **Funcionários**: Operam caixas, estoques e sistemas bancários. São treinados para vender — a qualquer custo.
-        - **Barão & Baronesa**: Controlam nichos estratégicos da economia, como alimentação, medicina e construção. Ditam preços e políticas internas.
-        - **Vendedor**: Manipuladores natos, vendem até o que não têm. Sempre com um sorriso... e um contrato."""
+"""A Sita controla a cidade por onde realmente importa: o bolso. Detentora do maior mercado e banco local, é nela que o valor das coisas — e das pessoas — é definido. Sua estrutura aristocrática é composta por barões e baronesas que dominam setores como feudos, enquanto o consumidor é apenas um número com carteira. Na Sita, tudo tem um preço. Juros, taxas e cláusulas escondidas são parte do jogo. Sua atual líder é **Rxya**.\n
+- **Funcionários**: Operam caixas, estoques e sistemas bancários. São treinados para vender — a qualquer custo.
+- **Barão & Baronesa**: Controlam nichos estratégicos da economia, como alimentação, medicina e construção. Ditam preços e políticas internas.
+- **Vendedor**: Manipuladores natos, vendem até o que não têm. Sempre com um sorriso... e um contrato."""
     ),
         'image_url': 'https://i.imgur.com/1MjmFs3.png',  # Substitua pelo URL real da imagem
         'color': Colors.VERDE,
@@ -424,25 +405,21 @@ WIKI_INFO = {
     'Sedam': {
         'title': 'Sedam - Armamento',
         'description': (
-        """A Sedam é o último resquício do antigo exército — e o único fornecedor legal de pólvora e armas da cidade. 
-        Isolada do restante das organizações, raramente se envolve nos conflitos, exceto quando o pagamento justifica. 
-        Com estrutura militar e rígida, mantém um monopólio absoluto sobre o armamento. Seu atual líder é **Heinken**.\n
-        - **Funcionários**: Lidam com a produção, estoque e burocracia de armamentos. Acesso à fábrica é privilégio de poucos.
-        - **Médico**: Um dos únicos profissionais com acesso real à medicina. Tratam feridos com excelência, muitas vezes gratuitamente — mas a que custo?"""
+"""A Sedam é o último resquício do antigo exército — e o único fornecedor legal de pólvora e armas da cidade. Isolada do restante das organizações, raramente se envolve nos conflitos, exceto quando o pagamento justifica. Com estrutura militar e rígida, mantém um monopólio absoluto sobre o armamento. Seu atual líder é **Heinken**.\n
+- **Funcionários**: Lidam com a produção, estoque e burocracia de armamentos. Acesso à fábrica é privilégio de poucos.
+- **Médico**: Um dos únicos profissionais com acesso real à medicina. Tratam feridos com excelência, muitas vezes gratuitamente — mas a que custo?"""
     ),
         'image_url': 'https://i.imgur.com/OEDAQs7.png',  # Substitua pelo URL real da imagem
         'color': Colors.VERMELHO,
         'apenas_imagem': True
     },
     'Otte': {
-        'title': 'Otte - Biblioteca',
-        'description': (
-        """A Otte é a guardiã do conhecimento verdadeiro. Em uma cidade dominada por fumaça e ganância, sua biblioteca é um farol de saber. 
-        Sobrevive graças a doações misteriosas e benfeitores anônimos, mesmo não sendo lucrativa. 
-        Seu atual líder é **Venus**, frequentemente confundido com o lendário professor **Joaquim**.\n
-        - **Funcionários**: Responsáveis por catalogar, restaurar e proteger documentos raros e preciosos.
-        - **Pesquisador**: Especialistas em teoria, arcana ou científica. Desenvolvem novas tecnologias e palavras artificiais.
-        - **Pesquisador de Campo**: Saem da biblioteca em busca de relíquias, dados perdidos e novas formas de saber — mesmo que isso custe caro."""
+'title': 'Otte - Biblioteca',
+'description': (
+"""A Otte é a guardiã do conhecimento verdadeiro. Em uma cidade dominada por fumaça e ganância, sua biblioteca é um farol de saber. Sobrevive graças a doações misteriosas e benfeitores anônimos, mesmo não sendo lucrativa. Seu atual líder é **Venus**, frequentemente confundido com o lendário professor **Joaquim**.\n
+- **Funcionários**: Responsáveis por catalogar, restaurar e proteger documentos raros e preciosos.
+- **Pesquisador**: Especialistas em teoria, arcana ou científica. Desenvolvem novas tecnologias e palavras artificiais.
+- **Pesquisador de Campo**: Saem da biblioteca em busca de relíquias, dados perdidos e novas formas de saber — mesmo que isso custe caro."""
     ),
         'image_url': 'https://i.imgur.com/vGYPr85.png',  # Substitua pelo URL real da imagem
         'color': Colors.CIANO,
@@ -451,11 +428,9 @@ WIKI_INFO = {
     'Nau': {
         'title': 'Nau - Entretenimento',
         'description': (
-        """A Nau colore o cinza da cidade com suas luzes, risos e absurdos. Responsável por toda a produção audiovisual, ela dita o que a cidade vê, ouve e sente. 
-        Seu estilo é caótico, extravagante e vicioso. Por trás de cada show, existe uma engrenagem brilhante — e bizarra. 
-        Sua figura máxima é o **Palhaço Palhaçada**, símbolo e lenda urbana.\n
-        - **Funcionários**: Técnicos, roteiristas, câmeras e figurantes. Fazem o show acontecer nos bastidores.
-        - **Palhaço**: Título e personagem. Qualquer um pode assumir o papel — desde que espalhe o caos divertido."""
+"""A Nau colore o cinza da cidade com suas luzes, risos e absurdos. Responsável por toda a produção audiovisual, ela dita o que a cidade vê, ouve e sente. Seu estilo é caótico, extravagante e vicioso. Por trás de cada show, existe uma engrenagem brilhante — e bizarra. Sua figura máxima é o **Palhaço Palhaçada**, símbolo e lenda urbana.\n
+- **Funcionários**: Técnicos, roteiristas, câmeras e figurantes. Fazem o show acontecer nos bastidores.
+- **Palhaço**: Título e personagem. Qualquer um pode assumir o papel — desde que espalhe o caos divertido."""
     ),
         'image_url': 'https://i.imgur.com/0ctDFBA.png',  # Substitua pelo URL real da imagem
         'color': Colors.BRANCO,
@@ -464,11 +439,9 @@ WIKI_INFO = {
     'Deg': {
         'title': 'Deg - Conselho',
         'description': (
-        """A Deg é o que mantém a cidade em ordem — ou pelo menos dá essa impressão. Não dita as regras, mas decide quem fala com quem, quando e sob quais condições. 
-        É a peça invisível que move o tabuleiro de poder. Quando há problemas externos, a Deg é sempre a primeira a agir. 
-        Sua líder atual é **Yin**.\n
-        - **Funcionários**: Organizam agendas, registros e reuniões entre as organizações.
-        - **Diplomata**: Mediadores, negociadores e embaixadores. Com carisma e boa lábia, garantem que a cidade funcione — mais ou menos."""
+"""A Deg é o que mantém a cidade em ordem — ou pelo menos dá essa impressão. Não dita as regras, mas decide quem fala com quem, quando e sob quais condições. É a peça invisível que move o tabuleiro de poder. Quando há problemas externos, a Deg é sempre a primeira a agir. Sua líder atual é **Yin**.\n
+- **Funcionários**: Organizam agendas, registros e reuniões entre as organizações.
+- **Diplomata**: Mediadores, negociadores e embaixadores. Com carisma e boa lábia, garantem que a cidade funcione — mais ou menos."""
     ),
         'image_url': 'https://i.imgur.com/VuEh9bu.png',  # Substitua pelo URL real da imagem
         'color': Colors.PRETO,
@@ -1631,7 +1604,64 @@ Ps: Em minha defesa, não existem muito manipuladores de mel.""",
 - **Modo: Irrestrito**: Tudo se torna propulsionado ao extremo, como uma explosão de progresso em tudo que você deseja.""",
     'image_url': 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3J3M3k4bm83cnJoYmM3cHp6cGR1NHU1YmdnYXFzd3I4eHFyZDJ3eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2G72eLZIuxjJUMUtLH/giphy.gif',
     'color': Colors.LARANJA
-}
+},
+
+# Casos: Arquivos
+
+"Arquivo: Vermelho Silencioso": {
+  "title": "Arquivo: Vermelho Silencioso",
+  "description": (
+    """Dizem que entre os campos mortos do interior, onde o trigo cresce mais dourado do que deveria, vive um espectro de capuz vermelho — uma jovem sem nome, sem Palavra, sem voz. \n
+Chamam-na de **Aura**. Não por luz, mas por vazio. Não brilha, não guia. Só caminha. \n
+Foi arrancada de sua família pela Igreja por seus cabelos loiros e olhos verdes — traços ditos "apropriados" para o serviço divino. Criada para obedecer, alimentada por dogmas e violência. Mas tudo mudou no dia do **banquete no campo**.\n
+Ali, ela e a **Deusa do Trigo** dividiram uma refeição proibida: uma freira, sua "avó". E após o último pedaço, Aura uivou ao sol... e jamais falou outra vez. \n
+Roubaram sua Palavra. Roubaram sua infância. Mas ela ficou com algo: **ódio e aço.** \n
+- **Arma**: *Cutelo de Trincheira “Credo”* — um serrote rústico e brutal feito de metal litúrgico. Serrando carne ou cortando ar, faz um som grotesco que ecoa como uma missa maldita.
+- **Estilo de combate**: Silenciosa, brutal, instintiva. Conhece o corpo humano como quem conhece o próprio trauma. Mata sem hesitar.
+- **Comportamento**: Nunca fala. Nunca sorri. Sua presença causa calafrios em padres e silêncio em igrejas.
+- **Status atual**: Vagando. Sem propósito, sem salvação. Em busca apenas de vingança contra a estrutura que a moldou e que agora deseja esquecer sua existência. \n
+Alguns dizem que ela ainda busca por algo no trigo. Outros, que deseja apenas lembrar ao mundo o gosto do sangue de sua origem."""
+  ),
+  'image_url': 'https://imgur.com/SJ5hjgW.png',
+    'color': Colors.VERMELHO
+},
+
+"Arquivo: Gula Púrpura": {
+  "title": "Arquivo: Gula Púrpura",
+  "description": (
+    """Na cidade de Kato, onde os cheiros se misturam ao vapor e a fome espreita mesmo nos saciados, vive **Rize**, a Dama da Gula. Ou como alguns a chamam, a **Fome que Ri**.\n
+Seu passado é um enigma contado em sussurros: uma garota criada em meio aos descartes de banquetes, onde aprendeu que a fome é tanto maldição quanto poder. Nunca teve um lar. Mas sempre teve apetite. \n
+Quando sua Palavra (Voracidade) despertou, foi como uma febre. Começou a provar o que ninguém ousava: vidro moído, pedra quente, mentiras. Descobriu que tudo pode ser engolido — até vontades. \n
+**Rize não sente fome. Ela é a fome.**\n
+Dizem que seus olhos brilham ao ver fraquezas, que seu riso pode cortar apetite de quem ouve. E que uma vez convidado à sua mesa, não se sai o mesmo. Nem inteiro.\n
+- **Arma**: *Punhos Nus* — musculatura refinada, dedos afiados e articulações reforçadas. Rize cozinha com as mãos. E luta do mesmo jeito. Cada soco seu reorganiza o mundo como um prato indesejado.
+- **Estilo de combate**: Selvagem, elegante, implacável. Não guarda postura — ela dita o ritmo. Cada ataque é como mastigar algo resistente: decidido, ritmado, instintivo.
+- **Comportamento**: Descontraída, sedutora, insuportavelmente confiante. Sempre rindo, sempre avaliando. Seu olhar pesa como um garfo prestes a decidir o que vale ser devorado.
+- **Status atual**: Considerada uma das três damas de Kato. Anda sozinha, mas sua presença enche os becos de sussurros e estômagos de medo. Alguns dizem que ela não luta por causa, nem por glória — apenas por **sabor**.\n
+Rize não quer destruir nada. Mas se algo cair no prato, ela não desperdiça."""
+  ),
+  'image_url': 'https://imgur.com/a/u7UOtTg.png',
+  'color': Colors.ROXO
+},
+
+"Arquivo: Sabedoria Celeste": {
+  "title": "Arquivo: Sabedoria Celeste",
+  "description": (
+    """Na cidade de Kato, onde até as mentiras se ajoelham diante do saber, habita **Nyxaria**, a Grande Sábia. Ou como os mais íntimos chamam, com ternura e temor: **a que consome a si mesma para alimentar o mundo**.\n
+Vestida como uma freira, com cabelos claros e um único olho de pérola reluzente, **Nyxaria não luta. Ela vive por um fio.** Seus órgãos, corroídos pela própria Palavra, já não cumprem seu papel. Cada passo é uma dança com a morte. Cada gesto, um milagre sustentado por pura intenção.\n
+Sua Palavra é **Autofagia** — e ela a aceita com resignação. Seu corpo se destrói, mas em troca, ela compreende. Entende pensamentos que não foram ditos. Traduz sonhos em verdades. Desvenda almas pela forma como respiram. Cada pedaço que ela perde, é devolvido em sabedoria aos outros. \n
+**Nyxaria é o preço da iluminação.**\n
+Criada nas bordas do mundo, longe da fé e perto do desespero, foi descoberta pela Igreja não como uma ameaça — mas como uma relíquia viva. **Eles a mantêm como um segredo frágil e precioso**, trancada entre janelas fechadas e promessas falsas. Não a veneram. Não a libertam. Apenas a exibem, quando convém.\n
+- **Arma**: *Nenhuma*. Sua força não reside em mãos ou espadas, mas em palavras que não precisam ser ditas. Quando muito, seus olhos bastam.
+- **Estilo de combate**: *Inexistente*. Nyxaria não combate. Ela guia. Ela observa. E às vezes, quando o mundo precisa, **ela chora — e as lágrimas caem como veredictos**.
+- **Comportamento**: Gentil, compassiva, serena. Mas nunca fraca. Sob sua delicadeza há um estoicismo indomável. Ela sabe que morrerá pouco a pouco — e ainda assim, escolhe oferecer tudo o que lhe resta a quem mais precisa. Não por fé. Mas por escolha.
+- **Status atual**: Uma das três damas de Kato. Preservada pela Igreja, mas não pertencente a ela. Reverenciada por quem a conhece, temida por quem entende o que ela carrega. Dizem que, se Nyxaria um dia deixar de existir, a cidade de Kato perderá seu coração — e o céu, sua bússola.\n
+Nyxaria não deseja redenção. Nem poder. Ela apenas quer que ninguém mais precise se consumir como ela para ser ouvido."""
+  ),
+  'image_url': 'https://imgur.com/a/jnQ6p4q.png',
+  'color': Colors.PEROLA
+},
+
 
 }
 
