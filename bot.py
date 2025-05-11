@@ -1659,7 +1659,174 @@ Criada nas bordas do mundo, longe da fé e perto do desespero, foi descoberta pe
 Nyxaria não deseja redenção. Nem poder. Ela apenas quer que ninguém mais precise se consumir como ela para ser ouvido."""
   ),
   'image_url': 'https://imgur.com/a/jnQ6p4q.png',
-  'color': Colors.PEROLA
+  'color': Colors.AZUL
+},
+
+# Pessoas
+
+"Raviel": {
+  "title": "Pessoa: Raviel",
+  "description": (
+    """Nas entranhas de Kato, onde a verdade tem preço e os olhos têm ouvidos, vive **Raviel**, o Homem que Não Esquece. Ou, como sussurram os que o conhecem de verdade: **aquele cuja memória pesa mais que a própria vida**.\n
+Líder oficial da **Uno**, a única organização investigativa de Kato, Raviel não se dá ao luxo da presença. **Está sempre em fuga, não por covardia — mas por saber demais.** A cada semana, um número de telefone novo. Um rosto coberto pelas sombras. Um nome que só os mortos conhecem.\n
+Sua Palavra é **Memorização** — e já atingiu o segundo estágio. Nada lhe escapa. **Cada fato, cada sussurro, cada gesto está gravado em sua mente como cicatriz viva.** Sua memória não dorme. E por isso, ele quase não o faz.\n
+**Raviel é o eco dos segredos de Kato.**\n
+Apesar de ser o líder oficial da Uno, sua presença física é quase um mito. Seus subordinados o seguem mais por respeito e resultados do que por comandos diretos. Muitos sequer sabem se ele ainda está na cidade — ou se algum corpo nas docas não era o dele. Mas os relatórios continuam chegando. As ameaças, desaparecendo. E os segredos, se acumulando.\n
+- **Arma**: *Nenhuma visível*. Sua mente é sua única lâmina. E, para muitos, isso basta.
+- **Estilo de combate**: *Fuga estratégica*. Raviel não luta. Ele antecipa. Ele desaparece. E, quando necessário, ele reaparece — com a verdade como sua única defesa.
+- **Comportamento**: Reservado, paranoico, meticuloso. Mas há compaixão escondida em seus atos. Raviel sabe que o que carrega pode destruir qualquer um. Por isso, se afasta. Não por medo, mas por responsabilidade.
+- **Status atual**: Líder oficial da Uno. Invisível por necessidade, mas incontestável. Poucos sabem onde ele está. Menos ainda sabem por quê. Mas todos sabem: **se Raviel cair, a cidade pode não saber mais o que é verdade.**\n
+Raviel não busca justiça. Nem poder. Ele busca apenas uma coisa: **tempo suficiente para lembrar de tudo antes que o apaguem.**"""
+  ),
+  'image_url': 'https://imgur.com/5lT75qt.png', 
+  'color': Colors.PRETO
+},
+
+"Aira": {
+  "title": "Pessoa: Aira",
+  "description": (
+    """Se Raviel é a mente da Uno, **Aira** é o zumbido constante atrás das paredes — **a que escuta até o silêncio cochichar**.\n
+Líder dos **Ouvidos**, o subgrupo responsável pela escuta e interceptação de informações na cidade de Kato, Aira é a segunda no comando da Uno. Uma posição que ela ocupa com a mesma ironia com que vive: sem pressa, sem reverência, mas com precisão absoluta.\n
+Sua Palavra é **Aranha** — e ninguém sabe em qual estágio ela está. Alguns dizem que suas aranhas são físicas. Outros juram que são feitas de som. Mas o que se sabe é que **não há esquina em Kato onde seus fios não toquem.**\n
+Aira não se importa com respeito. Nem com fama. **Ela só quer encontrar alguém digno o bastante para ver sua katana fora da bainha — coisa que jamais aconteceu até hoje.**\n
+- **Arma**: *Katana selada*. Sempre à suas costas. Nunca usada. E isso é o que mais assusta.
+- **Estilo de combate**: *Desnecessário*. Aira não precisa lutar. Ela já sabe onde você vai estar antes de pensar em agir.
+- **Comportamento**: Preguiçosa, ácida, debochada. Mas nunca desleixada. Há uma lógica meticulosa por trás de cada gesto, mesmo que pareça aleatório. Nada em Aira é feito por acaso.
+- **Status atual**: Líder dos Ouvidos e segunda na hierarquia da Uno. Mantém sua posição como quem segura uma xícara de chá: com uma mão só, entediada, mas sem jamais derramar uma gota.\n
+**Aira não procura justiça. Ela procura alguém que faça valer a pena sacar a lâmina. Até lá, ela apenas ouve — e espera.**"""
+  ),
+  'image_url': 'https://imgur.com/ewXv8wz.png',  # Adicione um link para imagem se quiser
+  'color': Colors.ROXO
+},
+
+"Erik": {
+  "title": "Pessoa: Erik",
+  "description": (
+    """Em Kato, onde até as identidades têm prazo de validade, há um garoto que pode ser qualquer um — e talvez nunca tenha sido **Erik** de verdade.\n
+Líder dos **Olhos**, o subgrupo de infiltração e vigilância da Uno, **Erik é a presença que você sente mas não consegue provar.** Frio, prático e sem muito apreço por emoções humanas comuns, ele vive para um único propósito: se esconder à vista de todos.\n
+Sua Palavra é **Ator**, ainda no estágio 0. Mas isso não o impede de ser um mestre dos disfarces. **Ele não precisa de poder — ele é o próprio papel.** Troca de vozes como quem troca de roupa. Adapta-se ao ambiente como se sempre tivesse pertencido a ele. E, apesar da apatia, brilha como uma criança animada quando o colocam em uma missão de infiltração.\n
+Erik não sabe lutar. E não tenta fingir que sabe. **Ele prefere ser a pessoa que observa enquanto o mundo desmorona — e anota tudo para a próxima cena.**\n
+- **Arma**: *Identidades falsas*. Seu rosto mais mortal é o que ninguém suspeita.
+- **Estilo de combate**: *Inexistente*. Erik evita conflito direto a todo custo. E quase sempre consegue.
+- **Comportamento**: Silencioso, racional, um tanto apático. Mas é só ouvir a palavra "infiltração" para seus olhos brilharem. Nesse momento, **ele deixa de ser Erik e vira o que for preciso.**
+- **Status atual**: Líder dos Olhos e segundo no comando da Uno, junto a Aira. Poucos o reconhecem duas vezes. E os que reconhecem... costumam estar errados.\n
+**Erik não deseja ser visto. Ele deseja ser necessário. E no mundo de Kato, isso é o mesmo que ser real.**"""
+  ),
+  'image_url': 'https://imgur.com/n4fNkUG.png',  # Adicione um link para imagem se quiser
+  'color': Colors.BRANCO
+},
+
+"Tereza": {
+  "title": "Pessoa: Tereza",
+  "description": (
+    """Na cidade onde ética é opcional, **Tereza** ainda carrega o peso da escolha. Capitã e líder da **Zwei**, a organização responsável pela proteção em Kato, ela é uma raridade: alguém que acredita que a vida vale mais que o lucro.\n
+Sua Palavra é **Barreira**, no estágio 2 — e o mundo inteiro já sentiu seus efeitos. Muralhas invisíveis surgem em meio ao caos, desviando balas, sustentando prédios desabando, salvando inocentes sem que percebam. E mesmo com esse poder colossal, **Tereza sabe usar a espada.** Uma lâmina dourada, santificada pela Igreja, empunhada apenas quando a barreira não basta.\n
+Tereza vive em armadura completa. Corpo fechado, coração exposto. Não é maternal, não é diplomática — **ela salva, e depois some**. Não tem tempo para reconstruções emocionais. O trabalho dela é impedir que o que resta vire pó.\n
+- **Arma**: *Espada de ouro santificada*. Sagrada, mas prática. Brilha mais pelo que protege do que pelo que corta.
+- **Estilo de combate**: *Defensivo absoluto*. Tereza ergue barreiras, mantém civis vivos e corta apenas o necessário. Nunca desperdiça um golpe.
+- **Comportamento**: Rígida, direta, inegociável. Sua compaixão se expressa em ações — não em palavras. E seu compromisso com a vida é maior do que com qualquer hierarquia.
+- **Status atual**: Líder da Zwei. É respeitada, mas raramente compreendida pelas outras organizações. Sua presença é garantia de proteção — mesmo que ninguém a convide.\n
+**Tereza não luta por ideais. Ela luta por pessoas. E, se for preciso, morrerá por cada uma delas sem hesitar.**"""
+  ),
+  'image_url': 'https://imgur.com/YXHGjOU.png',  # Adicione um link para imagem se quiser
+  'color': Colors.AMARELO
+},
+
+"Guerreiro da Caixa Preta": {
+  "title": "Pessoa: Guerreiro da Caixa Preta",
+  "description": (
+    """Ninguém sabe seu nome. Ninguém viu seu rosto. Mas todos em Kato conhecem o terror súbito de ser engolido por uma escuridão sólida — **e dar de cara com ele.**\n
+Chamado apenas de **Guerreiro da Caixa Preta**, ele é o comandante da milícia da Zwei, pessoalmente escolhido por Tereza. Um homem de força brutal, envolto em uma armadura negra que absorve a luz ao redor e carrega uma espada que parece pesada até para o chão.\n
+Sua Palavra é desconhecida. Mas quando um inimigo comete o erro de se expor, tudo desaparece: som, visão, esperança. Apenas uma **caixa preta** permanece, isolando o oponente do mundo e da ajuda. E lá dentro, há apenas ele — agressivo como um predador, gentil como um anjo caído, **letal como uma sentença.**\n
+- **Arma**: *Espada colossal*. Negra como ele. Afunda no concreto como papel. Um traço de silêncio antes do impacto.
+- **Estilo de combate**: *Confinamento absoluto*. Não persegue. Ele fecha. E dentro da prisão que cria, a luta é rápida — e unilateral.
+- **Comportamento**: Desconhecido. Mas há relatos de gestos gentis com civis, até mesmo carinhosos com crianças em meio ao caos. Fora isso, é um vulto armado com silêncio e dever.
+- **Status atual**: Líder da milícia da Zwei. Sua autoridade é incontestável dentro da organização, e sua presença é temida até mesmo entre aliados. O maior mistério da Zwei — e talvez o maior trunfo.\n
+**O Guerreiro da Caixa Preta não quer ser compreendido. Ele só quer garantir que ninguém precise morrer antes da hora.**"""
+  ),
+  'image_url': 'https://imgur.com/NOwCiCG.png',  # Adicione um link para imagem se quiser
+  'color': Colors.PRETO
+},
+
+"Hermiton": {
+  "title": "Pessoa: Hermiton",
+  "description": (
+    """Em Kato, onde o tempo literalmente custa, **Hermiton** é a personificação do relógio batendo. CEO e líder da **San**, a única e maior empresa de transportes da cidade, ele cobra por cada segundo — e cobra caro.\n
+Com a Palavra **Carvão** no estágio 3, Hermiton é a usina viva que alimenta toda a infraestrutura energética da San. Tudo na empresa — dos trens a vapor às turbinas térmicas — existe porque ele existe. Literalmente.\n
+Meticuloso até o osso e mais mão de vaca que o próprio tempo, **cada centavo é disputado em sua planilha como se fosse uma guerra**. Cortes orçamentários são sua linguagem de amor. E, claro, a San tem sua própria equipe de combate — terceirizar segurança? Jamais. Caro demais.\n
+Hermiton não luta. Ele **não tem tempo pra isso**. Mas há boatos de que, se um dia precisasse, ninguém sairia vivo de um encontro com sua **shotgun calibre 12**.\n
+- **Arma**: *Shotgun calibre 12*. Guardada, mas sempre à vista. Mais símbolo do que ameaça — mas ainda assim, uma ameaça.
+- **Estilo de combate**: *Teórico*. Hermiton não perde tempo com lutas. Ele as evita com contratos e eficiência extrema.
+- **Comportamento**: Frio, calculista, direto. Fala como quem já está atrasado. E está. Sempre. Mas nada acontece na San sem ele saber — e cortar.
+- **Status atual**: CEO e líder absoluto da San. Fornece energia, transporte e desgosto para todas as outras organizações. O tempo é dele. O carvão é dele. O mundo anda nos trilhos que ele criou.\n
+**Hermiton não quer glória. Quer retorno sobre investimento. E em Kato, isso é o mesmo que poder.**"""
+  ),
+  'image_url': 'https://imgur.com/oymq9AB.png',
+  'color': Colors.ROXO
+},
+
+"Millia": {
+  "title": "Pessoa: Millia",
+  "description": (
+    """A vida já tentou engolir **Millia** uma vez. Ela respondeu com uma chave inglesa e um plano de manutenção completo.\n
+Responsável pela equipe de manutenção da **San**, Millia é vista por muitos como "a que falhou no passado". Mas hoje, trabalha para a corporação mais implacável de Kato — **e brilha onde a maioria desiste**.\n
+Sua Palavra é **Lanterna**, estágio 1. Mas, para quem já passou pela escuridão, ela nunca precisou de luz artificial. Inteligente, gentil e absurdamente eficiente, Millia consegue fazer o trabalho de três em meia hora — e usar o resto do dia tentando impedir que **Alexander**, seu amor, morra de tanto trabalhar.\n
+Ela é o coração da San que ninguém vê. E a piada interna da equipe é sempre a mesma: "A chefe morreu de novo, tá trabalhando demais".\n
+- **Arma**: *Ferramentas e neurônios*. Resolve problemas antes que explodam. Literalmente.
+- **Estilo de combate**: *Evasivo*. Millia não luta — ela previne. E quando não dá, sai da frente que ela vai consertar depois.
+- **Comportamento**: Gentil, centrada, otimista. Mas firme quando precisa. Millia sorri — mesmo quando carrega o mundo nas costas.
+- **Status atual**: Chefe da manutenção da San. Transformou fracasso em estrutura e estrutura em orgulho. **É o tipo de pessoa que mantém uma cidade funcionando sem precisar aparecer.**"""
+  ),
+  'image_url': 'https://imgur.com/BcM9gD4.png',
+  'color': Colors.AMARELO
+},
+
+"Cornelia": {
+  "title": "Pessoa: Cornelia",
+  "description": (
+    """Limpeza, para **Cornelia**, é um conceito amplo. Pode significar tirar o sangue dos trilhos ou **retirar a fonte do sangue da cidade**.\n
+Capitã da equipe de limpeza da San, Cornelia lidera um batalhão que não passa vassoura — **passa por cima.** Ladrões, assassinos, parasitas: ela os remove com força bruta, manoplas elétricas e uma dose insana de convicção. A energia? Fornecida direto da bateria central da San. Cada soco é um investimento.\n
+Sua Palavra? Desconhecida. Nunca usou. Nunca precisou. Afinal, **quem precisa de poder místico quando sua presença já quebra costelas?**\n
+Cornelia criou as Leis da San em sua cabeça. E as segue com uma devoção que beira o religioso. Mesmo que ninguém mais reconheça essas regras — ou tenha autorizado.\n
+- **Arma**: *Manoplas elétricas*. Um aperto de mão pode ser fatal. E nenhum adversário sai ileso.
+- **Estilo de combate**: *Direto e implacável*. Cornelia não se esquiva. Ela derruba.
+- **Comportamento**: Intensa, severa, quase fanática. Mas justa à sua maneira. Não age por impulso — age por convicção.
+- **Status atual**: Capitã da limpeza da San. Temida, obedecida, às vezes evitada até por colegas. É a fronteira entre a ordem e o caos nos trilhos de Kato.\n
+**Cornelia não precisa de ordens. Ela já criou as dela — e vive para aplicá-las.**"""
+  ),
+  'image_url': 'https://imgur.com/SjwRzug.png',
+  'color': Colors.AZUL
+},
+
+"Illya": {
+  "title": "Pessoa: Illya",
+  "description": (
+    """Com apenas 15 anos, **Illya** não é uma promessa — é um golpe de estado bem-sucedido. A nova líder da **Arba'a**, a organização de assassinos mais antiga de Kato, chegou como um raio: **derrubou o antigo líder, assumiu o trono e proibiu o sangue de seus próprios aliados**.\n
+Sua Palavra é **Letal**, no estágio 2, mas suas mãos permanecem limpas. Quem mata por ela são os Dedos da Arba’a — sua equipe pessoal de execução. Illya não precisa levantar a voz ou empunhar armas. Sua presença basta. Seu raciocínio é fatal. Seu afeto é afiado como navalha.\n
+Apesar da idade, ela é como uma mãe para a organização: **protetora, exigente, estrategista**. Ela tolera falhas, mas **nunca aceita a morte de seus membros**. Dentro da Arba’a, seu nome é sagrado. Fora dela, é uma promessa de que a organização está voltando ao topo — e ninguém está seguro.\n
+- **Arma**: *Autoridade pura*. E, se precisar, os Dedos cuidam do resto.
+- **Estilo de combate**: *Delegado*. Illya não luta. Ela manda matar. Mas não sem pesar. Cada ordem é medida. Cada morte, pensada.
+- **Comportamento**: Serenamente calculista, carismática, imatura só na aparência. Uma adolescente apenas no corpo. Por dentro, **uma líder fria e decidida a restaurar um império**.
+- **Status atual**: Líder oficial da Arba’a. Vista por muitos como um milagre, por outros como uma ameaça. Mas todos concordam: **Illya mudou o jogo.**"""
+  ),
+  'image_url': 'https://imgur.com/V4wKorT.png',
+  'color': Colors.VERMELHO
+},
+
+"Os Dedos da Arba'a": {
+  "title": "Arquivo: Os Dedos da Arba'a",
+  "description": (
+    """Pouco se sabe. Pouco é permitido saber.\n
+**Os Dedos** são a força operacional de elite da Arba’a. Se Illya é a cabeça, eles são a mão que executa, **divididos em cinco especializações que juntos formam o punho mortal da organização.**\n
+- **Polegares**: Força bruta. Quando tudo falha, eles quebram. Ossos, portas, estratégias. São a muralha que esmaga.
+- **Indicadores**: Armas de fogo. Rápidos, letais, precisos. Um clique, um disparo. Não erram.
+- **Médios**: Mestres em artes marciais. Corpo a corpo? É suicídio encarar um deles. Se aproximou demais, já perdeu.
+- **Anelares**: Furtivos. Silenciosos. Invisíveis. A morte chega sem ser notada, e o anelar já está longe.
+- **Mindinhos**: Técnicos. Gases, bombas, engenharia da destruição. Quando o inimigo precisa morrer sem saber como, o mindinho resolve.\n
+**Ninguém sabe quem são. Ninguém os vê duas vezes. E se viu... é provável que não viva pra contar.**"""
+  ),
+  'image_url': 'https://imgur.com/MaYQB4S.png',
+  'color': Colors.PRETO
 },
 
 
